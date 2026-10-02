@@ -1,0 +1,4673 @@
+/* =====================================================
+   SAT Santander · datos del modelo
+   Generado por src/publicar.py. No editar a mano.
+   Corte: 2025-10-01 | umbral: 0.18 | origen: modelo
+   ===================================================== */
+window.SAT_DATOS = {
+ "origen": "modelo",
+ "datos_simulados": false,
+ "mes": "octubre de 2025",
+ "corte": "2025-10-01",
+ "corte_texto": "1 de octubre de 2025",
+ "umbral": 0.18,
+ "factor_amarillo": 0.6,
+ "municipios": [
+  {
+   "codigo": "68773",
+   "municipio": "Sucre",
+   "prob": 0.3077,
+   "puesto": 1,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "150,2 mm en septiembre, 0,8 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 22,5 % de los meses"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 2400 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68169",
+   "municipio": "Charta",
+   "prob": 0.2743,
+   "puesto": 2,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "91,2 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 20,9 % de los meses"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "2 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68669",
+   "municipio": "San Andrés",
+   "prob": 0.2606,
+   "puesto": 3,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "187,7 mm en septiembre, 0,9 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 19,4 % de los meses"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "3 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68464",
+   "municipio": "Mogotes",
+   "prob": 0.2466,
+   "puesto": 4,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "122,7 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 15,5 % de los meses"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68152",
+   "municipio": "Carcasí",
+   "prob": 0.2452,
+   "puesto": 5,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "127 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 16,3 % de los meses"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68162",
+   "municipio": "Cerrito",
+   "prob": 0.2227,
+   "puesto": 6,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "182,2 mm en septiembre, 1,1 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 14,7 % de los meses"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 2400 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68502",
+   "municipio": "Onzaga",
+   "prob": 0.2193,
+   "puesto": 7,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "58,8 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 21,7 % de los meses"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "5 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68250",
+   "municipio": "El Peñón",
+   "prob": 0.2193,
+   "puesto": 8,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "79,2 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 20,2 % de los meses"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "3 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68132",
+   "municipio": "California",
+   "prob": 0.2186,
+   "puesto": 9,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "109,4 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 15,5 % de los meses"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 2000 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68867",
+   "municipio": "Vetas",
+   "prob": 0.2133,
+   "puesto": 10,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "93,6 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 3350 m sobre el mar"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 13,2 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68077",
+   "municipio": "Barbosa",
+   "prob": 0.2087,
+   "puesto": 11,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "121,3 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "4 meses con movimiento en masa"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 15,5 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68498",
+   "municipio": "Ocamonte",
+   "prob": 0.202,
+   "puesto": 12,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "138,9 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 14,7 % de los meses"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "3 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68377",
+   "municipio": "La Belleza",
+   "prob": 0.1904,
+   "puesto": 13,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "79,8 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 14 % de los meses"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 2100 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68264",
+   "municipio": "Encino",
+   "prob": 0.1866,
+   "puesto": 14,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "99 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 22,5 % de los meses"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "2 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68432",
+   "municipio": "Málaga",
+   "prob": 0.1827,
+   "puesto": 15,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "52,1 mm en septiembre, 0,3 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 2200 m sobre el mar"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 11,6 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68051",
+   "municipio": "Aratoca",
+   "prob": 0.1811,
+   "puesto": 16,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "84,2 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "3 meses con movimiento en masa"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 12,4 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68820",
+   "municipio": "Tona",
+   "prob": 0.1777,
+   "puesto": 17,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "68,1 mm en septiembre, 0,3 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "2 meses con movimiento en masa"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 11,6 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68081",
+   "municipio": "Barrancabermeja",
+   "prob": 0.1638,
+   "puesto": 18,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "499,7 mm en septiembre, 1,4 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 75 m sobre el mar"
+    },
+    {
+     "variable": "emergencias_12m",
+     "etiqueta": "Emergencias recientes",
+     "detalle": "4 emergencias en los últimos 12 meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68318",
+   "municipio": "Guaca",
+   "prob": 0.1584,
+   "puesto": 19,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "130 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 2400 m sobre el mar"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68755",
+   "municipio": "Socorro",
+   "prob": 0.1508,
+   "puesto": 20,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "157,6 mm en septiembre, 0,9 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 14,7 % de los meses"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68207",
+   "municipio": "Concepción",
+   "prob": 0.1496,
+   "puesto": 21,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "97,1 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 14,7 % de los meses"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 2000 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68686",
+   "municipio": "San Miguel",
+   "prob": 0.1466,
+   "puesto": 22,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "85,6 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 12,4 % de los meses"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "2 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68324",
+   "municipio": "Guavatá",
+   "prob": 0.1453,
+   "puesto": 23,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "166,8 mm en septiembre, 0,8 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68895",
+   "municipio": "Zapatoca",
+   "prob": 0.1448,
+   "puesto": 24,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "45,2 mm en septiembre, 0,2 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 12,4 % de los meses"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "2 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68101",
+   "municipio": "Bolívar",
+   "prob": 0.1396,
+   "puesto": 25,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "127,5 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 14 % de los meses"
+    },
+    {
+     "variable": "emergencias_12m",
+     "etiqueta": "Emergencias recientes",
+     "detalle": "1 emergencias en los últimos 12 meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68684",
+   "municipio": "San José de Miranda",
+   "prob": 0.1368,
+   "puesto": 26,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "129,5 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 2000 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68327",
+   "municipio": "Güepsa",
+   "prob": 0.1356,
+   "puesto": 27,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "172,8 mm en septiembre, 0,8 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 10,1 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68209",
+   "municipio": "Confines",
+   "prob": 0.1311,
+   "puesto": 28,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "155,1 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 3,1 % de los meses"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68861",
+   "municipio": "Vélez",
+   "prob": 0.1268,
+   "puesto": 29,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "51,8 mm en septiembre, 0,3 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 2150 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68276",
+   "municipio": "Floridablanca",
+   "prob": 0.1241,
+   "puesto": 30,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "132,2 mm en septiembre, 0,8 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 14,7 % de los meses"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68298",
+   "municipio": "Gámbita",
+   "prob": 0.1225,
+   "puesto": 31,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "88,2 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 2050 m sobre el mar"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "3 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68121",
+   "municipio": "Cabrera",
+   "prob": 0.1222,
+   "puesto": 32,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "94,6 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "1 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68572",
+   "municipio": "Puente Nacional",
+   "prob": 0.1183,
+   "puesto": 33,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "139,9 mm en septiembre, 1,1 veces su promedio"
+    },
+    {
+     "variable": "emergencias_12m",
+     "etiqueta": "Emergencias recientes",
+     "detalle": "3 emergencias en los últimos 12 meses"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 12,4 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68397",
+   "municipio": "La Paz",
+   "prob": 0.1181,
+   "puesto": 34,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "82,5 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "emergencias_12m",
+     "etiqueta": "Emergencias recientes",
+     "detalle": "4 emergencias en los últimos 12 meses"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 11,6 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68720",
+   "municipio": "Santa Helena del Opón",
+   "prob": 0.1167,
+   "puesto": 35,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "221,3 mm en septiembre, 1,2 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "3 meses con movimiento en masa"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 500 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68179",
+   "municipio": "Chipatá",
+   "prob": 0.1139,
+   "puesto": 36,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "73,3 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "3 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68673",
+   "municipio": "San Benito",
+   "prob": 0.1138,
+   "puesto": 37,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "60 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 11,6 % de los meses"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68444",
+   "municipio": "Matanza",
+   "prob": 0.1132,
+   "puesto": 38,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "127,8 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 4,7 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68705",
+   "municipio": "Santa Bárbara",
+   "prob": 0.1103,
+   "puesto": 39,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "164 mm en septiembre, 1,1 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "2 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68322",
+   "municipio": "Guapotá",
+   "prob": 0.1098,
+   "puesto": 40,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "85 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68524",
+   "municipio": "Palmas del Socorro",
+   "prob": 0.1092,
+   "puesto": 41,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "73,8 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "2 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68500",
+   "municipio": "Oiba",
+   "prob": 0.1066,
+   "puesto": 42,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "87,2 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68001",
+   "municipio": "Bucaramanga",
+   "prob": 0.1063,
+   "puesto": 43,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "75,4 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "3 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68245",
+   "municipio": "El Guacamayo",
+   "prob": 0.104,
+   "puesto": 44,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "94,4 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "2 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68745",
+   "municipio": "Simacota",
+   "prob": 0.104,
+   "puesto": 45,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "47,8 mm en septiembre, 0,3 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68271",
+   "municipio": "Florián",
+   "prob": 0.104,
+   "puesto": 46,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "129,8 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68211",
+   "municipio": "Contratación",
+   "prob": 0.1029,
+   "puesto": 47,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "108,9 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68190",
+   "municipio": "Cimitarra",
+   "prob": 0.0999,
+   "puesto": 48,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "314,6 mm en septiembre, 0,8 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 325 m sobre el mar"
+    },
+    {
+     "variable": "emergencias_12m",
+     "etiqueta": "Emergencias recientes",
+     "detalle": "3 emergencias en los últimos 12 meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68425",
+   "municipio": "Macaravita",
+   "prob": 0.0982,
+   "puesto": 49,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "105,7 mm en septiembre, 0,9 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68320",
+   "municipio": "Guadalupe",
+   "prob": 0.0981,
+   "puesto": 50,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "80,9 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "1 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68368",
+   "municipio": "Jesús María",
+   "prob": 0.0975,
+   "puesto": 51,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "86,5 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 2,3 % de los meses"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68167",
+   "municipio": "Charalá",
+   "prob": 0.0973,
+   "puesto": 52,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "180,9 mm en septiembre, 0,9 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "1 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68682",
+   "municipio": "San Joaquín",
+   "prob": 0.0962,
+   "puesto": 53,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "48,3 mm en septiembre, 0,3 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68615",
+   "municipio": "Rionegro",
+   "prob": 0.0946,
+   "puesto": 54,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "190,6 mm en septiembre, 0,9 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 650 m sobre el mar"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68573",
+   "municipio": "Puerto Parra",
+   "prob": 0.0937,
+   "puesto": 55,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "167,6 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 125 m sobre el mar"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68307",
+   "municipio": "Girón",
+   "prob": 0.0935,
+   "puesto": 56,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "86,7 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "2 meses con movimiento en masa"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 777 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68296",
+   "municipio": "Galán",
+   "prob": 0.092,
+   "puesto": 57,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "112,4 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68217",
+   "municipio": "Coromoro",
+   "prob": 0.0887,
+   "puesto": 58,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "83,9 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68780",
+   "municipio": "Suratá",
+   "prob": 0.0886,
+   "puesto": 59,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "104,4 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 1800 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68020",
+   "municipio": "Albania",
+   "prob": 0.0876,
+   "puesto": 60,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "101,2 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 4,7 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68229",
+   "municipio": "Curití",
+   "prob": 0.0874,
+   "puesto": 61,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "107,1 mm en septiembre, 1,0 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "1 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68549",
+   "municipio": "Pinchote",
+   "prob": 0.0868,
+   "puesto": 62,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "84,1 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 5,4 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68147",
+   "municipio": "Capitanejo",
+   "prob": 0.0861,
+   "puesto": 63,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "77 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68872",
+   "municipio": "Villanueva",
+   "prob": 0.0831,
+   "puesto": 64,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "68,9 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68079",
+   "municipio": "Barichara",
+   "prob": 0.0827,
+   "puesto": 65,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "60,6 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "emergencias_12m",
+     "etiqueta": "Emergencias recientes",
+     "detalle": "2 emergencias en los últimos 12 meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68370",
+   "municipio": "Jordán",
+   "prob": 0.0801,
+   "puesto": 66,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "57,7 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 3,9 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68385",
+   "municipio": "Landázuri",
+   "prob": 0.0798,
+   "puesto": 67,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "144,6 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 3,9 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68406",
+   "municipio": "Lebrija",
+   "prob": 0.0784,
+   "puesto": 68,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "190,3 mm en septiembre, 1,0 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 3,9 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68533",
+   "municipio": "Páramo",
+   "prob": 0.078,
+   "puesto": 69,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "118,3 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 2,3 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68655",
+   "municipio": "Sabana de Torres",
+   "prob": 0.077,
+   "puesto": 70,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "189,1 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 110 m sobre el mar"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 3,1 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68855",
+   "municipio": "Valle de San José",
+   "prob": 0.0756,
+   "puesto": 71,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "88,4 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 3,9 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68176",
+   "municipio": "Chima",
+   "prob": 0.0742,
+   "puesto": 72,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "116,6 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 3,1 % de los meses"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68255",
+   "municipio": "El Playón",
+   "prob": 0.073,
+   "puesto": 73,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "139,1 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 500 m sobre el mar"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68770",
+   "municipio": "Suaita",
+   "prob": 0.073,
+   "puesto": 74,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "105 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68547",
+   "municipio": "Piedecuesta",
+   "prob": 0.0715,
+   "puesto": 75,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "80,2 mm en septiembre, 0,5 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68418",
+   "municipio": "Los Santos",
+   "prob": 0.0695,
+   "puesto": 76,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "95,2 mm en septiembre, 0,7 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 0 % de los meses"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68468",
+   "municipio": "Molagavita",
+   "prob": 0.0691,
+   "puesto": 77,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "99,2 mm en septiembre, 0,9 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "emergencias_12m",
+     "etiqueta": "Emergencias recientes",
+     "detalle": "1 emergencias en los últimos 12 meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68013",
+   "municipio": "Aguada",
+   "prob": 0.0671,
+   "puesto": 78,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "83,4 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68266",
+   "municipio": "Enciso",
+   "prob": 0.0651,
+   "puesto": 79,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "141,5 mm en septiembre, 1,0 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 1,6 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68575",
+   "municipio": "Puerto Wilches",
+   "prob": 0.0643,
+   "puesto": 80,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "199,5 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 50 m sobre el mar"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68689",
+   "municipio": "San Vicente de Chucurí",
+   "prob": 0.0641,
+   "puesto": 81,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "112,5 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 690 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68160",
+   "municipio": "Cepitá",
+   "prob": 0.0626,
+   "puesto": 82,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "115,2 mm en septiembre, 1,0 veces su promedio"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 1,6 % de los meses"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 800 m sobre el mar"
+    }
+   ]
+  },
+  {
+   "codigo": "68235",
+   "municipio": "El Carmen de Chucurí",
+   "prob": 0.0586,
+   "puesto": 83,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "136,1 mm en septiembre, 0,8 veces su promedio"
+    },
+    {
+     "variable": "terreno",
+     "etiqueta": "Terreno",
+     "detalle": "Altitud media de 650 m sobre el mar"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    }
+   ]
+  },
+  {
+   "codigo": "68679",
+   "municipio": "San Gil",
+   "prob": 0.0585,
+   "puesto": 84,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "88,9 mm en septiembre, 0,6 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 3,1 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68344",
+   "municipio": "Hato",
+   "prob": 0.0577,
+   "puesto": 85,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "44,6 mm en septiembre, 0,4 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "mes_sin",
+     "etiqueta": "Época del año",
+     "detalle": "Octubre, temporada de lluvias"
+    }
+   ]
+  },
+  {
+   "codigo": "68522",
+   "municipio": "Palmar",
+   "prob": 0.0556,
+   "puesto": 86,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "56,3 mm en septiembre, 0,3 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 0,8 % de los meses"
+    }
+   ]
+  },
+  {
+   "codigo": "68092",
+   "municipio": "Betulia",
+   "prob": 0.0527,
+   "puesto": 87,
+   "razones": [
+    {
+     "variable": "lluvia_rel_promedio",
+     "etiqueta": "Lluvia del mes anterior",
+     "detalle": "174,4 mm en septiembre, 1,0 veces su promedio"
+    },
+    {
+     "variable": "meses_mm_12m",
+     "etiqueta": "Último año",
+     "detalle": "0 meses con movimiento en masa"
+    },
+    {
+     "variable": "tasa_historica",
+     "etiqueta": "Historial del municipio",
+     "detalle": "Movimiento en masa en el 0,8 % de los meses"
+    }
+   ]
+  }
+ ],
+ "importancia": [
+  {
+   "etiqueta": "Anomalía de lluvia de 3 meses",
+   "valor": 0.3539
+  },
+  {
+   "etiqueta": "Promedio histórico de lluvia",
+   "valor": 0.2968
+  },
+  {
+   "etiqueta": "Tasa histórica del municipio",
+   "valor": 0.2214
+  },
+  {
+   "etiqueta": "Lluvia de hace 3 meses",
+   "valor": 0.2074
+  },
+  {
+   "etiqueta": "Lluvia acumulada de 3 meses",
+   "valor": 0.1843
+  },
+  {
+   "etiqueta": "Anomalía de lluvia del mes anterior",
+   "valor": 0.1767
+  },
+  {
+   "etiqueta": "Altitud del municipio",
+   "valor": 0.1308
+  },
+  {
+   "etiqueta": "Lluvia acumulada de 6 meses",
+   "valor": 0.1273
+  },
+  {
+   "etiqueta": "Lluvia de hace 2 meses",
+   "valor": 0.1211
+  },
+  {
+   "etiqueta": "Lluvia acumulada de 12 meses",
+   "valor": 0.1079
+  }
+ ],
+ "metricas": {
+  "periodo": "2020 a 2025, 71 meses fuera de muestra",
+  "modelo": {
+   "nombre": "Regresión logística",
+   "recall": 0.263,
+   "precision": 0.224,
+   "pr_auc": 0.188,
+   "roc_auc": 0.706,
+   "brier": 0.0828
+  },
+  "linea_base": {
+   "nombre": "Histórico del mismo mes",
+   "recall": 0.168,
+   "precision": 0.139,
+   "pr_auc": 0.141
+  },
+  "tasa_positivos": 0.0955,
+  "alertas_por_mes": 9.7,
+  "recall_at_10": 0.183,
+  "piso_azar_recall_at_10": 0.115
+ },
+ "curva_umbral": [
+  {
+   "umbral": 0.02,
+   "recall": 0.985,
+   "precision": 0.101
+  },
+  {
+   "umbral": 0.04,
+   "recall": 0.936,
+   "precision": 0.117
+  },
+  {
+   "umbral": 0.06,
+   "recall": 0.846,
+   "precision": 0.135
+  },
+  {
+   "umbral": 0.08,
+   "recall": 0.731,
+   "precision": 0.153
+  },
+  {
+   "umbral": 0.1,
+   "recall": 0.617,
+   "precision": 0.171
+  },
+  {
+   "umbral": 0.12,
+   "recall": 0.488,
+   "precision": 0.184
+  },
+  {
+   "umbral": 0.14,
+   "recall": 0.402,
+   "precision": 0.203
+  },
+  {
+   "umbral": 0.16,
+   "recall": 0.327,
+   "precision": 0.216
+  },
+  {
+   "umbral": 0.18,
+   "recall": 0.263,
+   "precision": 0.224
+  },
+  {
+   "umbral": 0.2,
+   "recall": 0.202,
+   "precision": 0.224
+  },
+  {
+   "umbral": 0.22,
+   "recall": 0.158,
+   "precision": 0.235
+  },
+  {
+   "umbral": 0.24,
+   "recall": 0.129,
+   "precision": 0.248
+  },
+  {
+   "umbral": 0.26,
+   "recall": 0.103,
+   "precision": 0.255
+  },
+  {
+   "umbral": 0.28,
+   "recall": 0.081,
+   "precision": 0.264
+  },
+  {
+   "umbral": 0.3,
+   "recall": 0.064,
+   "precision": 0.271
+  },
+  {
+   "umbral": 0.32,
+   "recall": 0.044,
+   "precision": 0.248
+  },
+  {
+   "umbral": 0.34,
+   "recall": 0.032,
+   "precision": 0.25
+  },
+  {
+   "umbral": 0.36,
+   "recall": 0.024,
+   "precision": 0.255
+  },
+  {
+   "umbral": 0.38,
+   "recall": 0.02,
+   "precision": 0.279
+  },
+  {
+   "umbral": 0.4,
+   "recall": 0.017,
+   "precision": 0.286
+  },
+  {
+   "umbral": 0.42,
+   "recall": 0.017,
+   "precision": 0.323
+  },
+  {
+   "umbral": 0.44,
+   "recall": 0.012,
+   "precision": 0.292
+  },
+  {
+   "umbral": 0.46,
+   "recall": 0.008,
+   "precision": 0.333
+  },
+  {
+   "umbral": 0.48,
+   "recall": 0.008,
+   "precision": 0.333
+  },
+  {
+   "umbral": 0.5,
+   "recall": 0.007,
+   "precision": 0.333
+  },
+  {
+   "umbral": 0.52,
+   "recall": 0.003,
+   "precision": 0.222
+  },
+  {
+   "umbral": 0.54,
+   "recall": 0.003,
+   "precision": 0.222
+  },
+  {
+   "umbral": 0.56,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.58,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.6,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.62,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.64,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.66,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.68,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.7,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.72,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.74,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.76,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.78,
+   "recall": 0.0,
+   "precision": 0.0
+  },
+  {
+   "umbral": 0.8,
+   "recall": 0.0,
+   "precision": 0.0
+  }
+ ],
+ "validacion": {
+  "anio_inicio": 2020,
+  "anio_fin": 2025,
+  "meses": 71,
+  "anios_con_prueba": [
+   {
+    "anio": 2020,
+    "meses": 11
+   },
+   {
+    "anio": 2021,
+    "meses": 12
+   },
+   {
+    "anio": 2022,
+    "meses": 12
+   },
+   {
+    "anio": 2023,
+    "meses": 12
+   },
+   {
+    "anio": 2024,
+    "meses": 12
+   },
+   {
+    "anio": 2025,
+    "meses": 12
+   }
+  ],
+  "descripcion": "Ventana creciente: para cada mes se entrena con todos los meses anteriores y se predice ese mes. Ninguna predicción vio su propio resultado ni el de un mes futuro."
+ },
+ "boletines": {
+  "68773": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Sucre",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 31 % de que ocurra al menos un movimiento en masa en Sucre. Supera el umbral de alerta de 0,18. Es la probabilidad más alta de los 87 municipios del departamento.",
+    "Sucre ha registrado movimientos en masa en el 22,5 % de los meses de su historial. En septiembre llovieron 150,2 mm, 0,8 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 31,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 1,
+    "municipios_total": 87,
+    "tasa_hist_pct": 22.5,
+    "lluvia_mm": 150.2,
+    "lluvia_ratio": 0.8,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 2400,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68169": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Charta",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 27 % de que ocurra al menos un movimiento en masa en Charta. Supera el umbral de alerta de 0,18. Ocupa el puesto 2 entre los 87 municipios del departamento.",
+    "Charta ha registrado movimientos en masa en el 20,9 % de los meses de su historial. En septiembre llovieron 91,2 mm, 0,4 veces su promedio para ese mes. En el último año tuvo 2 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 27,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 2,
+    "municipios_total": 87,
+    "tasa_hist_pct": 20.9,
+    "lluvia_mm": 91.2,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1800,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68669": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en San Andrés",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 26 % de que ocurra al menos un movimiento en masa en San Andrés. Supera el umbral de alerta de 0,18. Ocupa el puesto 3 entre los 87 municipios del departamento.",
+    "San Andrés ha registrado movimientos en masa en el 19,4 % de los meses de su historial. En septiembre llovieron 187,7 mm, 0,9 veces su promedio para ese mes. En el último año tuvo 3 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 26,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 3,
+    "municipios_total": 87,
+    "tasa_hist_pct": 19.4,
+    "lluvia_mm": 187.7,
+    "lluvia_ratio": 0.9,
+    "emergencias_12m": 4,
+    "meses_mm_12m": 3,
+    "ventana_meses": 12,
+    "altitud_m": 1650,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68464": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Mogotes",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 25 % de que ocurra al menos un movimiento en masa en Mogotes. Supera el umbral de alerta de 0,18. Ocupa el puesto 4 entre los 87 municipios del departamento.",
+    "Mogotes ha registrado movimientos en masa en el 15,5 % de los meses de su historial. En septiembre llovieron 122,7 mm, 0,5 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 25,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 4,
+    "municipios_total": 87,
+    "tasa_hist_pct": 15.5,
+    "lluvia_mm": 122.7,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1700,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68152": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Carcasí",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 25 % de que ocurra al menos un movimiento en masa en Carcasí. Supera el umbral de alerta de 0,18. Ocupa el puesto 5 entre los 87 municipios del departamento.",
+    "Carcasí ha registrado movimientos en masa en el 16,3 % de los meses de su historial. En septiembre llovieron 127 mm, 0,6 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 25,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 5,
+    "municipios_total": 87,
+    "tasa_hist_pct": 16.3,
+    "lluvia_mm": 127.0,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1710,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68162": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Cerrito",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 22 % de que ocurra al menos un movimiento en masa en Cerrito. Supera el umbral de alerta de 0,18. Ocupa el puesto 6 entre los 87 municipios del departamento.",
+    "Cerrito ha registrado movimientos en masa en el 14,7 % de los meses de su historial. En septiembre llovieron 182,2 mm, 1,1 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 22,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 6,
+    "municipios_total": 87,
+    "tasa_hist_pct": 14.7,
+    "lluvia_mm": 182.2,
+    "lluvia_ratio": 1.1,
+    "emergencias_12m": 4,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 2400,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68502": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Onzaga",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 22 % de que ocurra al menos un movimiento en masa en Onzaga. Supera el umbral de alerta de 0,18. Ocupa el puesto 7 entre los 87 municipios del departamento.",
+    "Onzaga ha registrado movimientos en masa en el 21,7 % de los meses de su historial. En septiembre llovieron 58,8 mm, 0,5 veces su promedio para ese mes. En el último año tuvo 5 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 22,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 7,
+    "municipios_total": 87,
+    "tasa_hist_pct": 21.7,
+    "lluvia_mm": 58.8,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 6,
+    "meses_mm_12m": 5,
+    "ventana_meses": 12,
+    "altitud_m": 2000,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68250": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en El Peñón",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 22 % de que ocurra al menos un movimiento en masa en El Peñón. Supera el umbral de alerta de 0,18. Ocupa el puesto 8 entre los 87 municipios del departamento.",
+    "El Peñón ha registrado movimientos en masa en el 20,2 % de los meses de su historial. En septiembre llovieron 79,2 mm, 0,5 veces su promedio para ese mes. En el último año tuvo 3 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 22,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 8,
+    "municipios_total": 87,
+    "tasa_hist_pct": 20.2,
+    "lluvia_mm": 79.2,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 5,
+    "meses_mm_12m": 3,
+    "ventana_meses": 12,
+    "altitud_m": 1900,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68132": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en California",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 22 % de que ocurra al menos un movimiento en masa en California. Supera el umbral de alerta de 0,18. Ocupa el puesto 9 entre los 87 municipios del departamento.",
+    "California ha registrado movimientos en masa en el 15,5 % de los meses de su historial. En septiembre llovieron 109,4 mm, 0,5 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 22,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 9,
+    "municipios_total": 87,
+    "tasa_hist_pct": 15.5,
+    "lluvia_mm": 109.4,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 2000,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68867": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Vetas",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 21 % de que ocurra al menos un movimiento en masa en Vetas. Supera el umbral de alerta de 0,18. Ocupa el puesto 10 entre los 87 municipios del departamento.",
+    "Vetas ha registrado movimientos en masa en el 13,2 % de los meses de su historial. En septiembre llovieron 93,6 mm, 0,5 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 21,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 10,
+    "municipios_total": 87,
+    "tasa_hist_pct": 13.2,
+    "lluvia_mm": 93.6,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 3350,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68077": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Barbosa",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 21 % de que ocurra al menos un movimiento en masa en Barbosa. Supera el umbral de alerta de 0,18. Ocupa el puesto 11 entre los 87 municipios del departamento.",
+    "Barbosa ha registrado movimientos en masa en el 15,5 % de los meses de su historial. En septiembre llovieron 121,3 mm, 0,5 veces su promedio para ese mes. En el último año tuvo 4 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 21,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 11,
+    "municipios_total": 87,
+    "tasa_hist_pct": 15.5,
+    "lluvia_mm": 121.3,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 4,
+    "meses_mm_12m": 4,
+    "ventana_meses": 12,
+    "altitud_m": 1600,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68498": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Ocamonte",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 20 % de que ocurra al menos un movimiento en masa en Ocamonte. Supera el umbral de alerta de 0,18. Ocupa el puesto 12 entre los 87 municipios del departamento.",
+    "Ocamonte ha registrado movimientos en masa en el 14,7 % de los meses de su historial. En septiembre llovieron 138,9 mm, 0,6 veces su promedio para ese mes. En el último año tuvo 3 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 20,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 12,
+    "municipios_total": 87,
+    "tasa_hist_pct": 14.7,
+    "lluvia_mm": 138.9,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 4,
+    "meses_mm_12m": 3,
+    "ventana_meses": 12,
+    "altitud_m": 1400,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68377": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en La Belleza",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 19 % de que ocurra al menos un movimiento en masa en La Belleza. Supera el umbral de alerta de 0,18. Ocupa el puesto 13 entre los 87 municipios del departamento.",
+    "La Belleza ha registrado movimientos en masa en el 14 % de los meses de su historial. En septiembre llovieron 79,8 mm, 0,4 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 19,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 13,
+    "municipios_total": 87,
+    "tasa_hist_pct": 14.0,
+    "lluvia_mm": 79.8,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 2100,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68264": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Encino",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 19 % de que ocurra al menos un movimiento en masa en Encino. Supera el umbral de alerta de 0,18. Ocupa el puesto 14 entre los 87 municipios del departamento.",
+    "Encino ha registrado movimientos en masa en el 22,5 % de los meses de su historial. En septiembre llovieron 99 mm, 0,5 veces su promedio para ese mes. En el último año tuvo 2 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 19,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 14,
+    "municipios_total": 87,
+    "tasa_hist_pct": 22.5,
+    "lluvia_mm": 99.0,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1460,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68432": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Málaga",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 18 % de que ocurra al menos un movimiento en masa en Málaga. Supera el umbral de alerta de 0,18. Ocupa el puesto 15 entre los 87 municipios del departamento.",
+    "Málaga ha registrado movimientos en masa en el 11,6 % de los meses de su historial. En septiembre llovieron 52,1 mm, 0,3 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 18,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 15,
+    "municipios_total": 87,
+    "tasa_hist_pct": 11.6,
+    "lluvia_mm": 52.1,
+    "lluvia_ratio": 0.3,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 2200,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68051": {
+   "nivel": "rojo",
+   "titulo": "Alerta por movimiento en masa en Aratoca",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 18 % de que ocurra al menos un movimiento en masa en Aratoca. Supera el umbral de alerta de 0,18. Ocupa el puesto 16 entre los 87 municipios del departamento.",
+    "Aratoca ha registrado movimientos en masa en el 12,4 % de los meses de su historial. En septiembre llovieron 84,2 mm, 0,6 veces su promedio para ese mes. En el último año tuvo 3 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal de gestión del riesgo revisar los sectores con antecedentes, verificar las rutas de evacuación y mantener activos los canales de aviso a la comunidad durante el mes.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 18,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 16,
+    "municipios_total": 87,
+    "tasa_hist_pct": 12.4,
+    "lluvia_mm": 84.2,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 3,
+    "meses_mm_12m": 3,
+    "ventana_meses": 12,
+    "altitud_m": 1800,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68820": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Tona",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 18 % de que ocurra al menos un movimiento en masa en Tona. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 17 entre los 87 municipios del departamento.",
+    "Tona ha registrado movimientos en masa en el 11,6 % de los meses de su historial. En septiembre llovieron 68,1 mm, 0,3 veces su promedio para ese mes. En el último año tuvo 2 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 18,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 17,
+    "municipios_total": 87,
+    "tasa_hist_pct": 11.6,
+    "lluvia_mm": 68.1,
+    "lluvia_ratio": 0.3,
+    "emergencias_12m": 3,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1900,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68081": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Barrancabermeja",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 16 % de que ocurra al menos un movimiento en masa en Barrancabermeja. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 18 entre los 87 municipios del departamento.",
+    "Barrancabermeja ha registrado movimientos en masa en el 6,2 % de los meses de su historial. En septiembre llovieron 499,7 mm, 1,4 veces su promedio para ese mes. En los últimos 12 meses reportó 4 emergencias. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 16,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 18,
+    "municipios_total": 87,
+    "tasa_hist_pct": 6.2,
+    "lluvia_mm": 499.7,
+    "lluvia_ratio": 1.4,
+    "emergencias_12m": 4,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 75,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68318": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Guaca",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 16 % de que ocurra al menos un movimiento en masa en Guaca. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 19 entre los 87 municipios del departamento.",
+    "Guaca ha registrado movimientos en masa en el 5,4 % de los meses de su historial. En septiembre llovieron 130 mm, 0,6 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 16,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 19,
+    "municipios_total": 87,
+    "tasa_hist_pct": 5.4,
+    "lluvia_mm": 130.0,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 2400,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68755": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Socorro",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 15 % de que ocurra al menos un movimiento en masa en Socorro. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 20 entre los 87 municipios del departamento.",
+    "Socorro ha registrado movimientos en masa en el 14,7 % de los meses de su historial. En septiembre llovieron 157,6 mm, 0,9 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 15,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 20,
+    "municipios_total": 87,
+    "tasa_hist_pct": 14.7,
+    "lluvia_mm": 157.6,
+    "lluvia_ratio": 0.9,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1230,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68207": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Concepción",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 15 % de que ocurra al menos un movimiento en masa en Concepción. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 21 entre los 87 municipios del departamento.",
+    "Concepción ha registrado movimientos en masa en el 14,7 % de los meses de su historial. En septiembre llovieron 97,1 mm, 0,6 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 15,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 21,
+    "municipios_total": 87,
+    "tasa_hist_pct": 14.7,
+    "lluvia_mm": 97.1,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 2000,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68686": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en San Miguel",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 15 % de que ocurra al menos un movimiento en masa en San Miguel. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 22 entre los 87 municipios del departamento.",
+    "San Miguel ha registrado movimientos en masa en el 12,4 % de los meses de su historial. En septiembre llovieron 85,6 mm, 0,6 veces su promedio para ese mes. En el último año tuvo 2 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 15,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 22,
+    "municipios_total": 87,
+    "tasa_hist_pct": 12.4,
+    "lluvia_mm": 85.6,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1480,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68324": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Guavatá",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 15 % de que ocurra al menos un movimiento en masa en Guavatá. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 23 entre los 87 municipios del departamento.",
+    "Guavatá ha registrado movimientos en masa en el 9,3 % de los meses de su historial. En septiembre llovieron 166,8 mm, 0,8 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 15,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 23,
+    "municipios_total": 87,
+    "tasa_hist_pct": 9.3,
+    "lluvia_mm": 166.8,
+    "lluvia_ratio": 0.8,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1650,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68895": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Zapatoca",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 14 % de que ocurra al menos un movimiento en masa en Zapatoca. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 24 entre los 87 municipios del departamento.",
+    "Zapatoca ha registrado movimientos en masa en el 12,4 % de los meses de su historial. En septiembre llovieron 45,2 mm, 0,2 veces su promedio para ese mes. En el último año tuvo 2 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 14,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 24,
+    "municipios_total": 87,
+    "tasa_hist_pct": 12.4,
+    "lluvia_mm": 45.2,
+    "lluvia_ratio": 0.2,
+    "emergencias_12m": 3,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1720,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68101": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Bolívar",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 14 % de que ocurra al menos un movimiento en masa en Bolívar. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 25 entre los 87 municipios del departamento.",
+    "Bolívar ha registrado movimientos en masa en el 14 % de los meses de su historial. En septiembre llovieron 127,5 mm, 0,6 veces su promedio para ese mes. En los últimos 12 meses reportó 1 emergencias. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 14,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 25,
+    "municipios_total": 87,
+    "tasa_hist_pct": 14.0,
+    "lluvia_mm": 127.5,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1900,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68684": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en San José de Miranda",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 14 % de que ocurra al menos un movimiento en masa en San José de Miranda. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 26 entre los 87 municipios del departamento.",
+    "San José de Miranda ha registrado movimientos en masa en el 9,3 % de los meses de su historial. En septiembre llovieron 129,5 mm, 0,7 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 14,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 26,
+    "municipios_total": 87,
+    "tasa_hist_pct": 9.3,
+    "lluvia_mm": 129.5,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 2000,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68327": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Güepsa",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 14 % de que ocurra al menos un movimiento en masa en Güepsa. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 27 entre los 87 municipios del departamento.",
+    "Güepsa ha registrado movimientos en masa en el 10,1 % de los meses de su historial. En septiembre llovieron 172,8 mm, 0,8 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 14,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 27,
+    "municipios_total": 87,
+    "tasa_hist_pct": 10.1,
+    "lluvia_mm": 172.8,
+    "lluvia_ratio": 0.8,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1600,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68209": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Confines",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 13 % de que ocurra al menos un movimiento en masa en Confines. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 28 entre los 87 municipios del departamento.",
+    "Confines ha registrado movimientos en masa en el 3,1 % de los meses de su historial. En septiembre llovieron 155,1 mm, 0,6 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 13,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 28,
+    "municipios_total": 87,
+    "tasa_hist_pct": 3.1,
+    "lluvia_mm": 155.1,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1360,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68861": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Vélez",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 13 % de que ocurra al menos un movimiento en masa en Vélez. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 29 entre los 87 municipios del departamento.",
+    "Vélez ha registrado movimientos en masa en el 11,6 % de los meses de su historial. En septiembre llovieron 51,8 mm, 0,3 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 13,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 29,
+    "municipios_total": 87,
+    "tasa_hist_pct": 11.6,
+    "lluvia_mm": 51.8,
+    "lluvia_ratio": 0.3,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 2150,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68276": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Floridablanca",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 12 % de que ocurra al menos un movimiento en masa en Floridablanca. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 30 entre los 87 municipios del departamento.",
+    "Floridablanca ha registrado movimientos en masa en el 14,7 % de los meses de su historial. En septiembre llovieron 132,2 mm, 0,8 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 12,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 30,
+    "municipios_total": 87,
+    "tasa_hist_pct": 14.7,
+    "lluvia_mm": 132.2,
+    "lluvia_ratio": 0.8,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 925,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68298": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Gámbita",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 12 % de que ocurra al menos un movimiento en masa en Gámbita. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 31 entre los 87 municipios del departamento.",
+    "Gámbita ha registrado movimientos en masa en el 9,3 % de los meses de su historial. En septiembre llovieron 88,2 mm, 0,4 veces su promedio para ese mes. En el último año tuvo 3 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 12,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 31,
+    "municipios_total": 87,
+    "tasa_hist_pct": 9.3,
+    "lluvia_mm": 88.2,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 3,
+    "meses_mm_12m": 3,
+    "ventana_meses": 12,
+    "altitud_m": 2050,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68121": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Cabrera",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 12 % de que ocurra al menos un movimiento en masa en Cabrera. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 32 entre los 87 municipios del departamento.",
+    "Cabrera ha registrado movimientos en masa en el 7,8 % de los meses de su historial. En septiembre llovieron 94,6 mm, 0,5 veces su promedio para ese mes. En el último año tuvo 1 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 12,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 32,
+    "municipios_total": 87,
+    "tasa_hist_pct": 7.8,
+    "lluvia_mm": 94.6,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1300,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68572": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Puente Nacional",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 12 % de que ocurra al menos un movimiento en masa en Puente Nacional. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 33 entre los 87 municipios del departamento.",
+    "Puente Nacional ha registrado movimientos en masa en el 12,4 % de los meses de su historial. En septiembre llovieron 139,9 mm, 1,1 veces su promedio para ese mes. En los últimos 12 meses reportó 3 emergencias. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 12,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 33,
+    "municipios_total": 87,
+    "tasa_hist_pct": 12.4,
+    "lluvia_mm": 139.9,
+    "lluvia_ratio": 1.1,
+    "emergencias_12m": 3,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1625,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68397": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en La Paz",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 12 % de que ocurra al menos un movimiento en masa en La Paz. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 34 entre los 87 municipios del departamento.",
+    "La Paz ha registrado movimientos en masa en el 11,6 % de los meses de su historial. En septiembre llovieron 82,5 mm, 0,5 veces su promedio para ese mes. En los últimos 12 meses reportó 4 emergencias. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 12,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 34,
+    "municipios_total": 87,
+    "tasa_hist_pct": 11.6,
+    "lluvia_mm": 82.5,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 4,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1900,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68720": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Santa Helena del Opón",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 12 % de que ocurra al menos un movimiento en masa en Santa Helena del Opón. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 35 entre los 87 municipios del departamento.",
+    "Santa Helena del Opón ha registrado movimientos en masa en el 9,3 % de los meses de su historial. En septiembre llovieron 221,3 mm, 1,2 veces su promedio para ese mes. En el último año tuvo 3 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 12,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 35,
+    "municipios_total": 87,
+    "tasa_hist_pct": 9.3,
+    "lluvia_mm": 221.3,
+    "lluvia_ratio": 1.2,
+    "emergencias_12m": 3,
+    "meses_mm_12m": 3,
+    "ventana_meses": 12,
+    "altitud_m": 500,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68179": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Chipatá",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 11 % de que ocurra al menos un movimiento en masa en Chipatá. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 36 entre los 87 municipios del departamento.",
+    "Chipatá ha registrado movimientos en masa en el 9,3 % de los meses de su historial. En septiembre llovieron 73,3 mm, 0,4 veces su promedio para ese mes. En el último año tuvo 3 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 11,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 36,
+    "municipios_total": 87,
+    "tasa_hist_pct": 9.3,
+    "lluvia_mm": 73.3,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 3,
+    "meses_mm_12m": 3,
+    "ventana_meses": 12,
+    "altitud_m": 1630,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68673": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en San Benito",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 11 % de que ocurra al menos un movimiento en masa en San Benito. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 37 entre los 87 municipios del departamento.",
+    "San Benito ha registrado movimientos en masa en el 11,6 % de los meses de su historial. En septiembre llovieron 60 mm, 0,4 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 11,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 37,
+    "municipios_total": 87,
+    "tasa_hist_pct": 11.6,
+    "lluvia_mm": 60.0,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1570,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68444": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Matanza",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 11 % de que ocurra al menos un movimiento en masa en Matanza. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 38 entre los 87 municipios del departamento.",
+    "Matanza ha registrado movimientos en masa en el 4,7 % de los meses de su historial. En septiembre llovieron 127,8 mm, 0,7 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 11,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 38,
+    "municipios_total": 87,
+    "tasa_hist_pct": 4.7,
+    "lluvia_mm": 127.8,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1640,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68705": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Santa Bárbara",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 11 % de que ocurra al menos un movimiento en masa en Santa Bárbara. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 39 entre los 87 municipios del departamento.",
+    "Santa Bárbara ha registrado movimientos en masa en el 7,8 % de los meses de su historial. En septiembre llovieron 164 mm, 1,1 veces su promedio para ese mes. En el último año tuvo 2 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 11,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 39,
+    "municipios_total": 87,
+    "tasa_hist_pct": 7.8,
+    "lluvia_mm": 164.0,
+    "lluvia_ratio": 1.1,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1590,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68322": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Guapotá",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 11 % de que ocurra al menos un movimiento en masa en Guapotá. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 40 entre los 87 municipios del departamento.",
+    "Guapotá ha registrado movimientos en masa en el 7,8 % de los meses de su historial. En septiembre llovieron 85 mm, 0,4 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 11,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 40,
+    "municipios_total": 87,
+    "tasa_hist_pct": 7.8,
+    "lluvia_mm": 85.0,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1390,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68524": {
+   "nivel": "amarillo",
+   "titulo": "Precaución por movimiento en masa en Palmas del Socorro",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 11 % de que ocurra al menos un movimiento en masa en Palmas del Socorro. No alcanza el umbral de alerta de 0,18, pero supera el nivel de precaución de 0,108. Ocupa el puesto 41 entre los 87 municipios del departamento.",
+    "Palmas del Socorro ha registrado movimientos en masa en el 6,2 % de los meses de su historial. En septiembre llovieron 73,8 mm, 0,5 veces su promedio para ese mes. En el último año tuvo 2 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "Se recomienda al consejo municipal hacer seguimiento a las lluvias y a los sectores con antecedentes, y estar listo para activar los protocolos si la situación cambia.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 11,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 41,
+    "municipios_total": 87,
+    "tasa_hist_pct": 6.2,
+    "lluvia_mm": 73.8,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 3,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1330,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68500": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Oiba",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 11 % de que ocurra al menos un movimiento en masa en Oiba, por debajo del nivel de precaución de 0,108. Ocupa el puesto 42 entre los 87 municipios del departamento.",
+    "Oiba ha registrado movimientos en masa en el 7,8 % de los meses de su historial. En septiembre llovieron 87,2 mm, 0,5 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 11,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 42,
+    "municipios_total": 87,
+    "tasa_hist_pct": 7.8,
+    "lluvia_mm": 87.2,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1420,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68001": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Bucaramanga",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 11 % de que ocurra al menos un movimiento en masa en Bucaramanga, por debajo del nivel de precaución de 0,108. Ocupa el puesto 43 entre los 87 municipios del departamento.",
+    "Bucaramanga ha registrado movimientos en masa en el 10,9 % de los meses de su historial. En septiembre llovieron 75,4 mm, 0,4 veces su promedio para ese mes. En el último año tuvo 3 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 11,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 43,
+    "municipios_total": 87,
+    "tasa_hist_pct": 10.9,
+    "lluvia_mm": 75.4,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 4,
+    "meses_mm_12m": 3,
+    "ventana_meses": 12,
+    "altitud_m": 959,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68245": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en El Guacamayo",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 10 % de que ocurra al menos un movimiento en masa en El Guacamayo, por debajo del nivel de precaución de 0,108. Ocupa el puesto 44 entre los 87 municipios del departamento.",
+    "El Guacamayo ha registrado movimientos en masa en el 6,2 % de los meses de su historial. En septiembre llovieron 94,4 mm, 0,5 veces su promedio para ese mes. En el último año tuvo 2 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 10,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 44,
+    "municipios_total": 87,
+    "tasa_hist_pct": 6.2,
+    "lluvia_mm": 94.4,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 3,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1460,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68745": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Simacota",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 10 % de que ocurra al menos un movimiento en masa en Simacota, por debajo del nivel de precaución de 0,108. Ocupa el puesto 45 entre los 87 municipios del departamento.",
+    "Simacota ha registrado movimientos en masa en el 10,1 % de los meses de su historial. En septiembre llovieron 47,8 mm, 0,3 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 10,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 45,
+    "municipios_total": 87,
+    "tasa_hist_pct": 10.1,
+    "lluvia_mm": 47.8,
+    "lluvia_ratio": 0.3,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1200,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68271": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Florián",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 10 % de que ocurra al menos un movimiento en masa en Florián, por debajo del nivel de precaución de 0,108. Ocupa el puesto 46 entre los 87 municipios del departamento.",
+    "Florián ha registrado movimientos en masa en el 7 % de los meses de su historial. En septiembre llovieron 129,8 mm, 0,7 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 10,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 46,
+    "municipios_total": 87,
+    "tasa_hist_pct": 7.0,
+    "lluvia_mm": 129.8,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1600,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68211": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Contratación",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 10 % de que ocurra al menos un movimiento en masa en Contratación, por debajo del nivel de precaución de 0,108. Ocupa el puesto 47 entre los 87 municipios del departamento.",
+    "Contratación ha registrado movimientos en masa en el 7,8 % de los meses de su historial. En septiembre llovieron 108,9 mm, 0,7 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 10,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 47,
+    "municipios_total": 87,
+    "tasa_hist_pct": 7.8,
+    "lluvia_mm": 108.9,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1500,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68190": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Cimitarra",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 10 % de que ocurra al menos un movimiento en masa en Cimitarra, por debajo del nivel de precaución de 0,108. Ocupa el puesto 48 entre los 87 municipios del departamento.",
+    "Cimitarra ha registrado movimientos en masa en el 4,7 % de los meses de su historial. En septiembre llovieron 314,6 mm, 0,8 veces su promedio para ese mes. En los últimos 12 meses reportó 3 emergencias. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 10,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 48,
+    "municipios_total": 87,
+    "tasa_hist_pct": 4.7,
+    "lluvia_mm": 314.6,
+    "lluvia_ratio": 0.8,
+    "emergencias_12m": 3,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 325,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68425": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Macaravita",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 10 % de que ocurra al menos un movimiento en masa en Macaravita, por debajo del nivel de precaución de 0,108. Ocupa el puesto 49 entre los 87 municipios del departamento.",
+    "Macaravita ha registrado movimientos en masa en el 4,7 % de los meses de su historial. En septiembre llovieron 105,7 mm, 0,9 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 10,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 49,
+    "municipios_total": 87,
+    "tasa_hist_pct": 4.7,
+    "lluvia_mm": 105.7,
+    "lluvia_ratio": 0.9,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1460,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68320": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Guadalupe",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 10 % de que ocurra al menos un movimiento en masa en Guadalupe, por debajo del nivel de precaución de 0,108. Ocupa el puesto 50 entre los 87 municipios del departamento.",
+    "Guadalupe ha registrado movimientos en masa en el 6,2 % de los meses de su historial. En septiembre llovieron 80,9 mm, 0,4 veces su promedio para ese mes. En el último año tuvo 1 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 10,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 50,
+    "municipios_total": 87,
+    "tasa_hist_pct": 6.2,
+    "lluvia_mm": 80.9,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1450,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68368": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Jesús María",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 10 % de que ocurra al menos un movimiento en masa en Jesús María, por debajo del nivel de precaución de 0,108. Ocupa el puesto 51 entre los 87 municipios del departamento.",
+    "Jesús María ha registrado movimientos en masa en el 2,3 % de los meses de su historial. En septiembre llovieron 86,5 mm, 0,4 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 10,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 51,
+    "municipios_total": 87,
+    "tasa_hist_pct": 2.3,
+    "lluvia_mm": 86.5,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1730,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68167": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Charalá",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 10 % de que ocurra al menos un movimiento en masa en Charalá, por debajo del nivel de precaución de 0,108. Ocupa el puesto 52 entre los 87 municipios del departamento.",
+    "Charalá ha registrado movimientos en masa en el 5,4 % de los meses de su historial. En septiembre llovieron 180,9 mm, 0,9 veces su promedio para ese mes. En el último año tuvo 1 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 10,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 52,
+    "municipios_total": 87,
+    "tasa_hist_pct": 5.4,
+    "lluvia_mm": 180.9,
+    "lluvia_ratio": 0.9,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1290,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68682": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en San Joaquín",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 10 % de que ocurra al menos un movimiento en masa en San Joaquín, por debajo del nivel de precaución de 0,108. Ocupa el puesto 53 entre los 87 municipios del departamento.",
+    "San Joaquín ha registrado movimientos en masa en el 7 % de los meses de su historial. En septiembre llovieron 48,3 mm, 0,3 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 10,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 53,
+    "municipios_total": 87,
+    "tasa_hist_pct": 7.0,
+    "lluvia_mm": 48.3,
+    "lluvia_ratio": 0.3,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1600,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68615": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Rionegro",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 9 % de que ocurra al menos un movimiento en masa en Rionegro, por debajo del nivel de precaución de 0,108. Ocupa el puesto 54 entre los 87 municipios del departamento.",
+    "Rionegro ha registrado movimientos en masa en el 5,4 % de los meses de su historial. En septiembre llovieron 190,6 mm, 0,9 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 9,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 54,
+    "municipios_total": 87,
+    "tasa_hist_pct": 5.4,
+    "lluvia_mm": 190.6,
+    "lluvia_ratio": 0.9,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 650,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68573": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Puerto Parra",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 9 % de que ocurra al menos un movimiento en masa en Puerto Parra, por debajo del nivel de precaución de 0,108. Ocupa el puesto 55 entre los 87 municipios del departamento.",
+    "Puerto Parra ha registrado movimientos en masa en el 5,4 % de los meses de su historial. En septiembre llovieron 167,6 mm, 0,4 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 9,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 55,
+    "municipios_total": 87,
+    "tasa_hist_pct": 5.4,
+    "lluvia_mm": 167.6,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 125,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68307": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Girón",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 9 % de que ocurra al menos un movimiento en masa en Girón, por debajo del nivel de precaución de 0,108. Ocupa el puesto 56 entre los 87 municipios del departamento.",
+    "Girón ha registrado movimientos en masa en el 8,5 % de los meses de su historial. En septiembre llovieron 86,7 mm, 0,6 veces su promedio para ese mes. En el último año tuvo 2 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 9,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 56,
+    "municipios_total": 87,
+    "tasa_hist_pct": 8.5,
+    "lluvia_mm": 86.7,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 777,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68296": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Galán",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 9 % de que ocurra al menos un movimiento en masa en Galán, por debajo del nivel de precaución de 0,108. Ocupa el puesto 57 entre los 87 municipios del departamento.",
+    "Galán ha registrado movimientos en masa en el 7 % de los meses de su historial. En septiembre llovieron 112,4 mm, 0,6 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 9,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 57,
+    "municipios_total": 87,
+    "tasa_hist_pct": 7.0,
+    "lluvia_mm": 112.4,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1100,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68217": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Coromoro",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 9 % de que ocurra al menos un movimiento en masa en Coromoro, por debajo del nivel de precaución de 0,108. Ocupa el puesto 58 entre los 87 municipios del departamento.",
+    "Coromoro ha registrado movimientos en masa en el 4,7 % de los meses de su historial. En septiembre llovieron 83,9 mm, 0,6 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 9,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 58,
+    "municipios_total": 87,
+    "tasa_hist_pct": 4.7,
+    "lluvia_mm": 83.9,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1600,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68780": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Suratá",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 9 % de que ocurra al menos un movimiento en masa en Suratá, por debajo del nivel de precaución de 0,108. Ocupa el puesto 59 entre los 87 municipios del departamento.",
+    "Suratá ha registrado movimientos en masa en el 8,5 % de los meses de su historial. En septiembre llovieron 104,4 mm, 0,6 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 9,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 59,
+    "municipios_total": 87,
+    "tasa_hist_pct": 8.5,
+    "lluvia_mm": 104.4,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1800,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68020": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Albania",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 9 % de que ocurra al menos un movimiento en masa en Albania, por debajo del nivel de precaución de 0,108. Ocupa el puesto 60 entre los 87 municipios del departamento.",
+    "Albania ha registrado movimientos en masa en el 4,7 % de los meses de su historial. En septiembre llovieron 101,2 mm, 0,7 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 9,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 60,
+    "municipios_total": 87,
+    "tasa_hist_pct": 4.7,
+    "lluvia_mm": 101.2,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1750,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68229": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Curití",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 9 % de que ocurra al menos un movimiento en masa en Curití, por debajo del nivel de precaución de 0,108. Ocupa el puesto 61 entre los 87 municipios del departamento.",
+    "Curití ha registrado movimientos en masa en el 7,8 % de los meses de su historial. En septiembre llovieron 107,1 mm, 1,0 veces su promedio para ese mes. En el último año tuvo 1 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 9,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 61,
+    "municipios_total": 87,
+    "tasa_hist_pct": 7.8,
+    "lluvia_mm": 107.1,
+    "lluvia_ratio": 1.0,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1400,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68549": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Pinchote",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 9 % de que ocurra al menos un movimiento en masa en Pinchote, por debajo del nivel de precaución de 0,108. Ocupa el puesto 62 entre los 87 municipios del departamento.",
+    "Pinchote ha registrado movimientos en masa en el 5,4 % de los meses de su historial. En septiembre llovieron 84,1 mm, 0,7 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 9,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 62,
+    "municipios_total": 87,
+    "tasa_hist_pct": 5.4,
+    "lluvia_mm": 84.1,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1280,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68147": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Capitanejo",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 9 % de que ocurra al menos un movimiento en masa en Capitanejo, por debajo del nivel de precaución de 0,108. Ocupa el puesto 63 entre los 87 municipios del departamento.",
+    "Capitanejo ha registrado movimientos en masa en el 7,8 % de los meses de su historial. En septiembre llovieron 77 mm, 0,5 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 9,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 63,
+    "municipios_total": 87,
+    "tasa_hist_pct": 7.8,
+    "lluvia_mm": 77.0,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1000,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68872": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Villanueva",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 8 % de que ocurra al menos un movimiento en masa en Villanueva, por debajo del nivel de precaución de 0,108. Ocupa el puesto 64 entre los 87 municipios del departamento.",
+    "Villanueva ha registrado movimientos en masa en el 6,2 % de los meses de su historial. En septiembre llovieron 68,9 mm, 0,7 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 8,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 64,
+    "municipios_total": 87,
+    "tasa_hist_pct": 6.2,
+    "lluvia_mm": 68.9,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1600,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68079": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Barichara",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 8 % de que ocurra al menos un movimiento en masa en Barichara, por debajo del nivel de precaución de 0,108. Ocupa el puesto 65 entre los 87 municipios del departamento.",
+    "Barichara ha registrado movimientos en masa en el 4,7 % de los meses de su historial. En septiembre llovieron 60,6 mm, 0,4 veces su promedio para ese mes. En los últimos 12 meses reportó 2 emergencias. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 8,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 65,
+    "municipios_total": 87,
+    "tasa_hist_pct": 4.7,
+    "lluvia_mm": 60.6,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1336,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68370": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Jordán",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 8 % de que ocurra al menos un movimiento en masa en Jordán, por debajo del nivel de precaución de 0,108. Ocupa el puesto 66 entre los 87 municipios del departamento.",
+    "Jordán ha registrado movimientos en masa en el 3,9 % de los meses de su historial. En septiembre llovieron 57,7 mm, 0,4 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 8,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 66,
+    "municipios_total": 87,
+    "tasa_hist_pct": 3.9,
+    "lluvia_mm": 57.7,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1000,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68385": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Landázuri",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 8 % de que ocurra al menos un movimiento en masa en Landázuri, por debajo del nivel de precaución de 0,108. Ocupa el puesto 67 entre los 87 municipios del departamento.",
+    "Landázuri ha registrado movimientos en masa en el 3,9 % de los meses de su historial. En septiembre llovieron 144,6 mm, 0,7 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 8,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 67,
+    "municipios_total": 87,
+    "tasa_hist_pct": 3.9,
+    "lluvia_mm": 144.6,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1100,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68406": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Lebrija",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 8 % de que ocurra al menos un movimiento en masa en Lebrija, por debajo del nivel de precaución de 0,108. Ocupa el puesto 68 entre los 87 municipios del departamento.",
+    "Lebrija ha registrado movimientos en masa en el 3,9 % de los meses de su historial. En septiembre llovieron 190,3 mm, 1,0 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 8,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 68,
+    "municipios_total": 87,
+    "tasa_hist_pct": 3.9,
+    "lluvia_mm": 190.3,
+    "lluvia_ratio": 1.0,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1050,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68533": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Páramo",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 8 % de que ocurra al menos un movimiento en masa en Páramo, por debajo del nivel de precaución de 0,108. Ocupa el puesto 69 entre los 87 municipios del departamento.",
+    "Páramo ha registrado movimientos en masa en el 2,3 % de los meses de su historial. En septiembre llovieron 118,3 mm, 0,7 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 8,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 69,
+    "municipios_total": 87,
+    "tasa_hist_pct": 2.3,
+    "lluvia_mm": 118.3,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1320,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68655": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Sabana de Torres",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 8 % de que ocurra al menos un movimiento en masa en Sabana de Torres, por debajo del nivel de precaución de 0,108. Ocupa el puesto 70 entre los 87 municipios del departamento.",
+    "Sabana de Torres ha registrado movimientos en masa en el 3,1 % de los meses de su historial. En septiembre llovieron 189,1 mm, 0,7 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 8,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 70,
+    "municipios_total": 87,
+    "tasa_hist_pct": 3.1,
+    "lluvia_mm": 189.1,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 110,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68855": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Valle de San José",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 8 % de que ocurra al menos un movimiento en masa en Valle de San José, por debajo del nivel de precaución de 0,108. Ocupa el puesto 71 entre los 87 municipios del departamento.",
+    "Valle de San José ha registrado movimientos en masa en el 3,9 % de los meses de su historial. En septiembre llovieron 88,4 mm, 0,5 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 8,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 71,
+    "municipios_total": 87,
+    "tasa_hist_pct": 3.9,
+    "lluvia_mm": 88.4,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 1,
+    "ventana_meses": 12,
+    "altitud_m": 1370,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68176": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Chima",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 7 % de que ocurra al menos un movimiento en masa en Chima, por debajo del nivel de precaución de 0,108. Ocupa el puesto 72 entre los 87 municipios del departamento.",
+    "Chima ha registrado movimientos en masa en el 3,1 % de los meses de su historial. En septiembre llovieron 116,6 mm, 0,7 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 7,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 72,
+    "municipios_total": 87,
+    "tasa_hist_pct": 3.1,
+    "lluvia_mm": 116.6,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 2,
+    "meses_mm_12m": 2,
+    "ventana_meses": 12,
+    "altitud_m": 1350,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68255": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en El Playón",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 7 % de que ocurra al menos un movimiento en masa en El Playón, por debajo del nivel de precaución de 0,108. Ocupa el puesto 73 entre los 87 municipios del departamento.",
+    "El Playón ha registrado movimientos en masa en el 7 % de los meses de su historial. En septiembre llovieron 139,1 mm, 0,7 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 7,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 73,
+    "municipios_total": 87,
+    "tasa_hist_pct": 7.0,
+    "lluvia_mm": 139.1,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 500,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68770": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Suaita",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 7 % de que ocurra al menos un movimiento en masa en Suaita, por debajo del nivel de precaución de 0,108. Ocupa el puesto 74 entre los 87 municipios del departamento.",
+    "Suaita ha registrado movimientos en masa en el 4,7 % de los meses de su historial. En septiembre llovieron 105 mm, 0,7 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 7,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 74,
+    "municipios_total": 87,
+    "tasa_hist_pct": 4.7,
+    "lluvia_mm": 105.0,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1500,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68547": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Piedecuesta",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 7 % de que ocurra al menos un movimiento en masa en Piedecuesta, por debajo del nivel de precaución de 0,108. Ocupa el puesto 75 entre los 87 municipios del departamento.",
+    "Piedecuesta ha registrado movimientos en masa en el 3,9 % de los meses de su historial. En septiembre llovieron 80,2 mm, 0,5 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 7,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 75,
+    "municipios_total": 87,
+    "tasa_hist_pct": 3.9,
+    "lluvia_mm": 80.2,
+    "lluvia_ratio": 0.5,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1005,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68418": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Los Santos",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 7 % de que ocurra al menos un movimiento en masa en Los Santos, por debajo del nivel de precaución de 0,108. Ocupa el puesto 76 entre los 87 municipios del departamento.",
+    "Los Santos ha registrado movimientos en masa en el 0 % de los meses de su historial. En septiembre llovieron 95,2 mm, 0,7 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 7,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 76,
+    "municipios_total": 87,
+    "tasa_hist_pct": 0.0,
+    "lluvia_mm": 95.2,
+    "lluvia_ratio": 0.7,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1310,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68468": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Molagavita",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 7 % de que ocurra al menos un movimiento en masa en Molagavita, por debajo del nivel de precaución de 0,108. Ocupa el puesto 77 entre los 87 municipios del departamento.",
+    "Molagavita ha registrado movimientos en masa en el 4,7 % de los meses de su historial. En septiembre llovieron 99,2 mm, 0,9 veces su promedio para ese mes. En los últimos 12 meses reportó 1 emergencias. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 7,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 77,
+    "municipios_total": 87,
+    "tasa_hist_pct": 4.7,
+    "lluvia_mm": 99.2,
+    "lluvia_ratio": 0.9,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1650,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68013": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Aguada",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 7 % de que ocurra al menos un movimiento en masa en Aguada, por debajo del nivel de precaución de 0,108. Ocupa el puesto 78 entre los 87 municipios del departamento.",
+    "Aguada ha registrado movimientos en masa en el 4,7 % de los meses de su historial. En septiembre llovieron 83,4 mm, 0,6 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 7,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 78,
+    "municipios_total": 87,
+    "tasa_hist_pct": 4.7,
+    "lluvia_mm": 83.4,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1540,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68266": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Enciso",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 7 % de que ocurra al menos un movimiento en masa en Enciso, por debajo del nivel de precaución de 0,108. Ocupa el puesto 79 entre los 87 municipios del departamento.",
+    "Enciso ha registrado movimientos en masa en el 1,6 % de los meses de su historial. En septiembre llovieron 141,5 mm, 1,0 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 7,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 79,
+    "municipios_total": 87,
+    "tasa_hist_pct": 1.6,
+    "lluvia_mm": 141.5,
+    "lluvia_ratio": 1.0,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1600,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68575": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Puerto Wilches",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 6 % de que ocurra al menos un movimiento en masa en Puerto Wilches, por debajo del nivel de precaución de 0,108. Ocupa el puesto 80 entre los 87 municipios del departamento.",
+    "Puerto Wilches ha registrado movimientos en masa en el 5,4 % de los meses de su historial. En septiembre llovieron 199,5 mm, 0,6 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 6,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 80,
+    "municipios_total": 87,
+    "tasa_hist_pct": 5.4,
+    "lluvia_mm": 199.5,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 3,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 50,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68689": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en San Vicente de Chucurí",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 6 % de que ocurra al menos un movimiento en masa en San Vicente de Chucurí, por debajo del nivel de precaución de 0,108. Ocupa el puesto 81 entre los 87 municipios del departamento.",
+    "San Vicente de Chucurí ha registrado movimientos en masa en el 3,1 % de los meses de su historial. En septiembre llovieron 112,5 mm, 0,6 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 6,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 81,
+    "municipios_total": 87,
+    "tasa_hist_pct": 3.1,
+    "lluvia_mm": 112.5,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 690,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68160": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Cepitá",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 6 % de que ocurra al menos un movimiento en masa en Cepitá, por debajo del nivel de precaución de 0,108. Ocupa el puesto 82 entre los 87 municipios del departamento.",
+    "Cepitá ha registrado movimientos en masa en el 1,6 % de los meses de su historial. En septiembre llovieron 115,2 mm, 1,0 veces su promedio para ese mes. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 6,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 82,
+    "municipios_total": 87,
+    "tasa_hist_pct": 1.6,
+    "lluvia_mm": 115.2,
+    "lluvia_ratio": 1.0,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 800,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68235": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en El Carmen de Chucurí",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 6 % de que ocurra al menos un movimiento en masa en El Carmen de Chucurí, por debajo del nivel de precaución de 0,108. Ocupa el puesto 83 entre los 87 municipios del departamento.",
+    "El Carmen de Chucurí ha registrado movimientos en masa en el 3,9 % de los meses de su historial. En septiembre llovieron 136,1 mm, 0,8 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 6,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 83,
+    "municipios_total": 87,
+    "tasa_hist_pct": 3.9,
+    "lluvia_mm": 136.1,
+    "lluvia_ratio": 0.8,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 650,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68679": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en San Gil",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 6 % de que ocurra al menos un movimiento en masa en San Gil, por debajo del nivel de precaución de 0,108. Ocupa el puesto 84 entre los 87 municipios del departamento.",
+    "San Gil ha registrado movimientos en masa en el 3,1 % de los meses de su historial. En septiembre llovieron 88,9 mm, 0,6 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 6,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 84,
+    "municipios_total": 87,
+    "tasa_hist_pct": 3.1,
+    "lluvia_mm": 88.9,
+    "lluvia_ratio": 0.6,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1114,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68344": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Hato",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 6 % de que ocurra al menos un movimiento en masa en Hato, por debajo del nivel de precaución de 0,108. Ocupa el puesto 85 entre los 87 municipios del departamento.",
+    "Hato ha registrado movimientos en masa en el 4,7 % de los meses de su historial. En septiembre llovieron 44,6 mm, 0,4 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 6,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 85,
+    "municipios_total": 87,
+    "tasa_hist_pct": 4.7,
+    "lluvia_mm": 44.6,
+    "lluvia_ratio": 0.4,
+    "emergencias_12m": 1,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1250,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68522": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Palmar",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 6 % de que ocurra al menos un movimiento en masa en Palmar, por debajo del nivel de precaución de 0,108. Ocupa el puesto 86 entre los 87 municipios del departamento.",
+    "Palmar ha registrado movimientos en masa en el 0,8 % de los meses de su historial. En septiembre llovieron 56,3 mm, 0,3 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 6,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 86,
+    "municipios_total": 87,
+    "tasa_hist_pct": 0.8,
+    "lluvia_mm": 56.3,
+    "lluvia_ratio": 0.3,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 1280,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  },
+  "68092": {
+   "nivel": "verde",
+   "titulo": "Sin alerta por movimiento en masa en Betulia",
+   "parrafos": [
+    "Para octubre de 2025, el modelo estima una probabilidad del 5 % de que ocurra al menos un movimiento en masa en Betulia, por debajo del nivel de precaución de 0,108. Ocupa el puesto 87 entre los 87 municipios del departamento.",
+    "Betulia ha registrado movimientos en masa en el 0,8 % de los meses de su historial. En septiembre llovieron 174,4 mm, 1,0 veces su promedio para ese mes. En el último año tuvo 0 meses con movimiento en masa. Además, octubre es una de las dos temporadas de mayor riesgo del año.",
+    "No se recomiendan acciones adicionales. Un nivel bajo no descarta eventos causados por lluvias fuertes de pocas horas, así que se recomienda mantener el monitoreo habitual y reportar cualquier evento al sistema.",
+    "El historial usado en este boletín llega hasta el 1 de octubre de 2025."
+   ],
+   "cifras": {
+    "probabilidad_pct": 5,
+    "umbral": 0.18,
+    "umbral_precaucion": 0.108,
+    "puesto": 87,
+    "municipios_total": 87,
+    "tasa_hist_pct": 0.8,
+    "lluvia_mm": 174.4,
+    "lluvia_ratio": 1.0,
+    "emergencias_12m": 0,
+    "meses_mm_12m": 0,
+    "ventana_meses": 12,
+    "altitud_m": 400,
+    "anio": 2025,
+    "dia_corte": 1,
+    "temporadas": 2
+   }
+  }
+ },
+ "boletin_destacado": "68773",
+ "limitaciones": [
+  "Eventos detonados por lluvias intensas de pocas horas: el modelo solo ve el total mensual de lluvia, no la intensidad hora a hora.",
+  "Dentro de un municipio hay laderas muy distintas y el modelo usa un solo valor de lluvia para todo el territorio.",
+  "Subregistro: un municipio que reporta poco puede parecer más seguro de lo que es, porque el modelo aprende del registro, no de lo que pasó.",
+  "Causas que no están en los datos: sismos, cortes de talud, deforestación, obras y construcción vial.",
+  "Al 26 % de los meses con movimiento en masa caen dentro de los 10 municipios alertados en un mes típico. El sistema sirve para priorizar la vigilancia, no para declarar que un municipio está seguro."
+ ]
+};

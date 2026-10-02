@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="SAT Santander: pronóstico mensual de alerta por movimiento en masa en los 87 municipios de Santander.">
+  <meta name="theme-color" content="#006B3F">
+  <title>SAT Santander · Alerta por movimiento en masa</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Tema y estado del menú antes de pintar (evita el destello blanco) -->
+  <script>
+    (function () {
+      var raiz = document.documentElement, tema = null, menu = null;
+      try { tema = localStorage.getItem('sat-tema'); menu = localStorage.getItem('sat-menu'); } catch (e) {}
+      if (!tema) tema = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      raiz.setAttribute('data-theme', tema);
+      if (menu === 'collapsed') raiz.setAttribute('data-sidebar', 'collapsed');
+    })();
+  </script>
+
+  <!-- Todo es local: funciona sin internet -->
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <div class="app">
+
+    <!-- ============ MENÚ LATERAL ============ -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand__flags">
+          <img class="flag" src="assets/bandera-santander.png" width="39" height="26" alt="Bandera de Santander" title="Santander">
+          <img class="flag label" src="assets/bandera-bucaramanga.png" width="52" height="26" alt="Bandera de Bucaramanga" title="Bucaramanga">
+        </div>
+        <div class="label">
+          <p class="brand__name">SAT Santander</p>
+          <p class="brand__small">Gobernación de Santander · GRD</p>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <button class="nav__item is-active" data-view="mapa" title="Mapa de alertas">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15"/><path d="M15 6v15"/></svg>
+          <span class="label">Mapa de alertas</span>
+        </button>
+        <button class="nav__item" data-view="boletin" title="Boletín">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/><path d="M8 13h8"/><path d="M8 17h5"/></svg>
+          <span class="label">Boletín</span>
+        </button>
+        <button class="nav__item" data-view="modelo" title="Modelo y métricas">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 6-7"/></svg>
+          <span class="label">Modelo y métricas</span>
+        </button>
+        <button class="nav__item" data-view="umbral" title="Umbral y semáforo">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></svg>
+          <span class="label">Umbral y semáforo</span>
+        </button>
+      </nav>
+
+      <button class="collapse-btn" id="collapseBtn" aria-label="Contraer menú" aria-expanded="true" title="Contraer menú">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        <span class="label">Contraer menú</span>
+      </button>
+
+      <div class="sidebar__footer" title="UDGRD Santander · Pronóstico mensual">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+        <div class="label">
+          <p class="sidebar__entity">UDGRD Santander</p>
+          <p class="sidebar__room">Pronóstico mensual</p>
+        </div>
+      </div>
+    </aside>
+    <div class="scrim" id="scrim" hidden></div>
+
+    <!-- ============ CONTENIDO ============ -->
+    <div class="content">
+
+      <header class="topbar">
+        <div class="topbar__left">
+          <button class="icon-btn menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="sidebar">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          </button>
+          <div class="topbar__titles">
+            <h1 class="topbar__title" id="viewTitle">Mapa de alertas</h1>
+            <p class="topbar__sub" id="topbarSub">Pronóstico de —</p>
+          </div>
+          <span class="alert-pill" id="alertPill">
+            <span class="alert-pill__dot" aria-hidden="true"></span>
+            <span id="alertPillText">—</span>
+          </span>
+        </div>
+        <div class="topbar__right">
+          <span class="chip" id="chipSimulados" hidden>Datos simulados</span>
+          <button class="icon-btn" id="themeBtn" aria-label="Activar modo oscuro" title="Cambiar tema">
+            <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          </button>
+        </div>
+      </header>
+
+      <main class="main" id="contenido">
+
+        <div class="notice" id="avisoEjemplo" hidden>
+          <strong>Datos de ejemplo.</strong>
+          Las probabilidades por municipio son de prueba. Reemplace <code>datos/sat_datos.js</code> con la exportación del cuaderno.
+        </div>
+
+        <!-- ===== VISTA: MAPA ===== -->
+        <section class="view is-visible" data-view-panel="mapa" aria-labelledby="viewTitle">
+
+          <div class="kpis" id="kpis"></div>
+
+          <div class="row">
+            <div class="card card--map">
+              <div class="card__head">
+                <h2 class="card__title">Semáforo por municipio</h2>
+                <span class="muted" id="mapaMes"></span>
+              </div>
+              <div id="map" class="map" role="region" aria-label="Mapa de Santander por nivel de alerta. La misma información está en el ranking de abajo."></div>
+              <div class="legend" id="leyenda"></div>
+            </div>
+
+            <div class="card card--detail" id="detalle" aria-live="polite"></div>
+          </div>
+
+          <div class="card" id="ranking">
+            <div class="card__head card__head--tools">
+              <h2 class="card__title">Ranking de probabilidad</h2>
+              <div class="tools">
+                <div class="segmented" role="group" aria-label="Filtrar por nivel" id="filtros"></div>
+                <label class="search">
+                  <span class="sr-only">Buscar municipio</span>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+                  <input type="search" id="buscar" placeholder="Buscar municipio" autocomplete="off">
+                </label>
+              </div>
+            </div>
+            <p class="card__note">Si el consejo solo puede atender pocos municipios, se recomienda empezar por los primeros de esta lista.</p>
+            <div class="table-wrap">
+              <table class="table table--rank">
+                <thead>
+                  <tr>
+                    <th scope="col" class="num">#</th>
+                    <th scope="col">Municipio</th>
+                    <th scope="col">Probabilidad</th>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Razón principal</th>
+                    <th scope="col"><span class="sr-only">Acción</span></th>
+                  </tr>
+                </thead>
+                <tbody id="tablaRanking"></tbody>
+              </table>
+              <p class="empty" id="sinResultados" hidden>Ningún municipio coincide con la búsqueda.</p>
+            </div>
+            <div class="more" id="verMasCont" hidden>
+              <button class="btn" id="verMas"></button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== VISTA: BOLETÍN ===== -->
+        <section class="view" data-view-panel="boletin">
+          <div class="row row--bol">
+
+            <!-- Buscar y elegir -->
+            <div class="card bol-picker">
+              <div class="card__head"><h2 class="card__title">Elegir municipio</h2><span class="muted" id="bolConteo"></span></div>
+              <div class="pad stack bol-picker__tools">
+                <label class="search search--full">
+                  <span class="sr-only">Buscar municipio</span>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+                  <input type="search" id="bolBuscar" placeholder="Buscar municipio" autocomplete="off" aria-controls="bolLista">
+                </label>
+                <div class="segmented segmented--full" role="group" aria-label="Filtrar por nivel" id="bolFiltros"></div>
+              </div>
+              <ul class="bol-list" id="bolLista" aria-label="Municipios"></ul>
+              <p class="empty" id="bolVacio" hidden>Ningún municipio coincide con la búsqueda.</p>
+              <div class="bol-picker__foot">
+                <div class="bol-picker__sel">
+                  <span id="bolMarcadosTxt">Ninguno marcado</span>
+                  <button class="link-btn" id="bolMarcarVisibles">Marcar los de la lista</button>
+                  <button class="link-btn" id="bolLimpiar" hidden>Quitar marcas</button>
+                </div>
+                <button class="btn btn--primary" id="btnSeleccion" disabled>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 21h14"/></svg>
+                  <span>Descargar marcados</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Vista previa -->
+            <article class="card bulletin" id="boletinVista" aria-live="polite"></article>
+
+            <!-- Descargas -->
+            <aside class="bulletin-side stack">
+              <div class="card">
+                <div class="card__head"><h2 class="card__title">Este boletín</h2></div>
+                <div class="pad stack">
+                  <div id="verificacion"></div>
+                  <button class="btn btn--primary" id="btnPdf">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M5 21h14"/></svg>
+                    Descargar PDF
+                  </button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card__head"><h2 class="card__title">Descargar por nivel</h2></div>
+                <div class="pad stack" id="descargasNivel"></div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <!-- ===== VISTA: MODELO ===== -->
+        <section class="view" data-view-panel="modelo">
+          <div class="kpis" id="kpisModelo"></div>
+
+          <div class="row">
+            <div class="card card--half">
+              <div class="card__head"><h2 class="card__title">Modelo frente a línea base</h2><span class="muted" id="periodoPrueba"></span></div>
+              <div class="chart-box"><canvas id="chartMetricas" aria-label="Gráfica de recall y PR-AUC del modelo frente a la línea base" role="img"></canvas></div>
+            </div>
+            <div class="card card--half">
+              <div class="card__head"><h2 class="card__title">Variables que más pesan (SHAP)</h2><span class="muted" id="notaShap"></span></div>
+              <div class="chart-box chart-box--tall"><canvas id="chartShap" aria-label="Importancia de variables según SHAP" role="img"></canvas></div>
+            </div>
+          </div>
+
+<div class="card">
+              <div class="card__head"><h2 class="card__title">Validación por ventana creciente</h2><span class="muted" id="notaTimeline"></span></div>
+              <div class="pad">
+                <p class="lead">El sistema se usa hacia adelante en el tiempo, así que se entrena con años pasados y se valida con el siguiente. Una partición aleatoria mezclaría años y daría resultados demasiado optimistas.</p>
+                <div class="timeline-wrap"><div class="timeline" id="timeline"></div></div>
+                <div class="legend legend--inline" id="leyendaTimeline"></div>
+              </div>
+            </div>
+
+          <div class="card">
+            <div class="card__head"><h2 class="card__title">Qué no puede anticipar el sistema</h2></div>
+            <ul class="limits" id="limitaciones"></ul>
+          </div>
+        </section>
+
+        <!-- ===== VISTA: UMBRAL ===== -->
+        <section class="view" data-view-panel="umbral">
+          <div class="row">
+            <div class="card card--half">
+              <div class="card__head"><h2 class="card__title">Reglas del semáforo</h2></div>
+              <div class="pad stack" id="reglas"></div>
+            </div>
+            <div class="card card--half">
+              <div class="card__head"><h2 class="card__title" id="tituloUmbral">Por qué este umbral</h2></div>
+              <div class="pad stack" id="textoUmbral"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__head"><h2 class="card__title">Recall y precisión según el umbral</h2><span class="muted" id="notaCurva"></span></div>
+            <div class="chart-box chart-box--tall"><canvas id="chartUmbral" aria-label="Recall y precisión según el umbral" role="img"></canvas></div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  </div>
+
+  <div class="sr-only" aria-live="polite" id="anuncio"></div>
+
+  <!-- Librerías locales -->
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="vendor/chart.umd.js"></script>
+  <script src="vendor/jspdf.umd.min.js"></script>
+  <script src="vendor/jspdf.plugin.autotable.min.js"></script>
+
+  <!-- Datos -->
+  <script src="datos/municipios.geo.js"></script>
+  <script src="datos/sat_datos.js"></script>
+
+  <!-- Aplicativo -->
+  <script src="js/banderas.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/mapa.js"></script>
+  <script src="js/graficos.js"></script>
+  <script src="js/boletin.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

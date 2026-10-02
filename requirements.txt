@@ -1,0 +1,8 @@
+# Entorno: Python 3.12.9 (venv en .venv)
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+shap==0.52.0
+folium==0.20.0
+matplotlib==3.11.2
