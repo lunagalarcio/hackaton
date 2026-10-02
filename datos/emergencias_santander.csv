@@ -1,0 +1,1473 @@
+fecha,municipio,codigo_dane,evento,personas_afectadas,viviendas_afectadas,vias_afectadas
+2015-01-04,La Paz,68397,Incendio forestal,2,0,0
+2015-01-12,San Benito,68673,Incendio forestal,3,0,0
+2015-01-17,Simacota,68745,Movimiento en masa,16,10,1
+2015-01-17,Piedecuesta,68547,Vendaval,10,2,0
+2015-01-21,Jordán,68370,Incendio forestal,1,1,0
+2015-01-23,Floridablanca,68276,Vendaval,15,4,0
+2015-01-26,Puerto Parra,68573,Incendio forestal,1,1,0
+2015-01-28,Santa Bárbara,68705,Incendio forestal,2,1,0
+2015-02-12,Bucaramanga,68001,Incendio forestal,3,0,0
+2015-02-14,Enciso,68266,Incendio forestal,3,0,0
+2015-02-20,El Peñón,68250,Movimiento en masa,28,2,0
+2015-02-28,Capitanejo,68147,Incendio forestal,1,0,0
+2015-03-05,Puerto Parra,68573,Inundación,17,3,1
+2015-03-06,San Andrés,68669,Movimiento en masa,23,1,0
+2015-03-06,El Guacamayo,68245,Movimiento en masa,18,0,1
+2015-03-14,Valle de San José,68855,Incendio forestal,0,0,0
+2015-03-21,Rionegro,68615,Vendaval,58,16,0
+2015-03-21,Encino,68264,Movimiento en masa,17,1,1
+2015-03-21,Cimitarra,68190,Movimiento en masa,37,0,0
+2015-03-24,Barrancabermeja,68081,Creciente súbita,57,14,0
+2015-04-01,Santa Bárbara,68705,Movimiento en masa,9,1,1
+2015-04-05,Puente Nacional,68572,Movimiento en masa,16,3,1
+2015-04-14,Charalá,68167,Movimiento en masa,12,2,0
+2015-04-17,Carcasí,68152,Inundación,77,20,0
+2015-04-23,San Miguel,68686,Movimiento en masa,5,0,1
+2015-05-01,El Peñón,68250,Movimiento en masa,17,6,1
+2015-05-01,Pinchote,68549,Inundación,139,29,0
+2015-05-04,Charalá,68167,Movimiento en masa,30,1,1
+2015-05-06,Mogotes,68464,Creciente súbita,16,5,0
+2015-05-06,Chima,68176,Vendaval,52,11,0
+2015-05-07,Sucre,68773,Movimiento en masa,32,6,1
+2015-05-08,Guadalupe,68320,Movimiento en masa,16,1,0
+2015-05-14,Aguada,68013,Movimiento en masa,24,4,0
+2015-05-20,Guapotá,68322,Creciente súbita,40,9,1
+2015-05-24,Molagavita,68468,Movimiento en masa,14,2,1
+2015-06-15,Enciso,68266,Vendaval,38,10,0
+2015-06-24,Puente Nacional,68572,Movimiento en masa,13,6,0
+2015-06-26,Capitanejo,68147,Movimiento en masa,25,8,0
+2015-07-01,Güepsa,68327,Incendio forestal,2,0,0
+2015-07-04,Puerto Wilches,68575,Movimiento en masa,15,5,1
+2015-07-19,Simacota,68745,Inundación,213,57,0
+2015-07-19,Oiba,68500,Movimiento en masa,27,4,0
+2015-07-20,Curití,68229,Incendio forestal,1,0,0
+2015-07-21,Curití,68229,Movimiento en masa,7,7,1
+2015-07-22,Encino,68264,Movimiento en masa,26,2,1
+2015-07-22,San Miguel,68686,Creciente súbita,72,16,0
+2015-07-25,Capitanejo,68147,Movimiento en masa,14,6,0
+2015-07-26,Barichara,68079,Incendio forestal,3,0,0
+2015-07-26,Vetas,68867,Movimiento en masa,26,0,1
+2015-08-02,Jordán,68370,Incendio forestal,2,0,0
+2015-08-03,Macaravita,68425,Incendio forestal,5,0,0
+2015-08-10,Lebrija,68406,Incendio forestal,1,1,0
+2015-08-12,San José de Miranda,68684,Movimiento en masa,26,9,0
+2015-08-13,Los Santos,68418,Incendio forestal,1,1,0
+2015-08-13,Concepción,68207,Incendio forestal,1,0,0
+2015-08-22,Piedecuesta,68547,Incendio forestal,0,0,0
+2015-08-23,Barichara,68079,Incendio forestal,0,0,0
+2015-08-25,Cerrito,68162,Incendio forestal,2,0,0
+2015-09-01,Molagavita,68468,Vendaval,24,6,0
+2015-09-09,Guavatá,68324,Inundación,115,28,0
+2015-09-12,Jesús María,68368,Inundación,41,8,0
+2015-10-05,Charta,68169,Movimiento en masa,25,0,1
+2015-10-06,Sucre,68773,Movimiento en masa,29,6,1
+2015-10-06,Onzaga,68502,Movimiento en masa,11,2,0
+2015-10-06,Rionegro,68615,Movimiento en masa,7,0,0
+2015-10-08,Encino,68264,Movimiento en masa,15,7,1
+2015-10-10,Bucaramanga,68001,Movimiento en masa,12,1,0
+2015-10-10,Capitanejo,68147,Movimiento en masa,5,3,0
+2015-10-12,Cepitá,68160,Creciente súbita,25,5,0
+2015-10-14,Málaga,68432,Movimiento en masa,28,4,0
+2015-10-15,Jordán,68370,Movimiento en masa,5,2,1
+2015-10-16,Vetas,68867,Movimiento en masa,14,14,1
+2015-10-16,Mogotes,68464,Movimiento en masa,15,0,1
+2015-10-16,La Paz,68397,Inundación,126,38,1
+2015-10-28,El Guacamayo,68245,Movimiento en masa,6,4,1
+2015-11-03,Onzaga,68502,Movimiento en masa,16,7,1
+2015-11-11,Carcasí,68152,Movimiento en masa,24,3,1
+2015-11-16,Albania,68020,Movimiento en masa,38,2,0
+2015-11-21,Puerto Parra,68573,Inundación,44,10,0
+2015-12-02,Carcasí,68152,Creciente súbita,86,22,0
+2015-12-12,Barbosa,68077,Movimiento en masa,37,0,1
+2015-12-17,Encino,68264,Movimiento en masa,16,2,1
+2015-12-19,Cerrito,68162,Movimiento en masa,13,4,0
+2016-01-02,Rionegro,68615,Incendio forestal,0,0,0
+2016-01-04,Puerto Wilches,68575,Inundación,94,21,0
+2016-01-05,Suratá,68780,Incendio forestal,0,0,0
+2016-01-11,Guavatá,68324,Incendio forestal,2,0,0
+2016-01-12,Coromoro,68217,Incendio forestal,2,1,0
+2016-01-16,Villanueva,68872,Incendio forestal,3,0,0
+2016-01-22,Hato,68344,Incendio forestal,4,0,0
+2016-01-23,La Belleza,68377,Inundación,22,5,0
+2016-01-23,Ocamonte,68498,Incendio forestal,1,0,0
+2016-02-05,Contratación,68211,Incendio forestal,2,1,0
+2016-02-06,Puerto Wilches,68575,Incendio forestal,2,0,0
+2016-02-06,Piedecuesta,68547,Incendio forestal,1,1,0
+2016-02-08,Onzaga,68502,Movimiento en masa,28,0,1
+2016-02-10,Villanueva,68872,Incendio forestal,2,0,0
+2016-02-21,Cimitarra,68190,Inundación,142,38,1
+2016-02-22,La Belleza,68377,Incendio forestal,3,0,0
+2016-03-01,Jordán,68370,Incendio forestal,3,0,0
+2016-03-04,Los Santos,68418,Incendio forestal,1,0,0
+2016-03-08,El Playón,68255,Movimiento en masa,21,3,0
+2016-03-15,Barrancabermeja,68081,Inundación,66,13,0
+2016-03-16,San Vicente de Chucurí,68689,Incendio forestal,1,1,0
+2016-03-20,Girón,68307,Vendaval,30,9,0
+2016-03-22,Simacota,68745,Movimiento en masa,8,5,1
+2016-03-23,Cimitarra,68190,Inundación,72,18,0
+2016-03-25,Socorro,68755,Movimiento en masa,7,6,0
+2016-03-26,Barbosa,68077,Incendio forestal,3,0,0
+2016-03-27,Ocamonte,68498,Movimiento en masa,50,2,1
+2016-04-04,Cimitarra,68190,Inundación,31,8,0
+2016-04-06,Suratá,68780,Movimiento en masa,58,4,1
+2016-04-10,Capitanejo,68147,Movimiento en masa,22,5,0
+2016-04-16,San José de Miranda,68684,Movimiento en masa,2,0,1
+2016-04-18,Puerto Wilches,68575,Inundación,7,1,1
+2016-04-23,Puerto Wilches,68575,Inundación,39,10,0
+2016-04-25,Guaca,68318,Movimiento en masa,13,4,0
+2016-04-25,Suratá,68780,Creciente súbita,38,9,0
+2016-04-27,El Peñón,68250,Movimiento en masa,54,9,0
+2016-05-01,El Peñón,68250,Movimiento en masa,20,6,0
+2016-05-04,Puente Nacional,68572,Movimiento en masa,6,0,1
+2016-05-10,Zapatoca,68895,Movimiento en masa,43,2,1
+2016-05-10,Puerto Wilches,68575,Inundación,48,14,0
+2016-05-16,El Peñón,68250,Movimiento en masa,30,4,1
+2016-05-16,California,68132,Movimiento en masa,35,3,1
+2016-05-17,Puerto Wilches,68575,Inundación,18,3,1
+2016-05-18,El Guacamayo,68245,Vendaval,24,6,0
+2016-05-23,Barrancabermeja,68081,Inundación,93,20,1
+2016-05-23,Málaga,68432,Movimiento en masa,28,4,0
+2016-05-27,Aguada,68013,Movimiento en masa,7,1,0
+2016-06-03,Chipatá,68179,Movimiento en masa,13,6,0
+2016-06-08,Florián,68271,Incendio forestal,2,0,0
+2016-06-12,Barrancabermeja,68081,Incendio forestal,3,0,0
+2016-06-15,Villanueva,68872,Movimiento en masa,29,6,0
+2016-06-16,Gámbita,68298,Movimiento en masa,63,4,1
+2016-06-17,Mogotes,68464,Movimiento en masa,20,0,0
+2016-06-17,Barichara,68079,Vendaval,20,5,1
+2016-06-18,Cepitá,68160,Creciente súbita,31,9,0
+2016-06-23,Onzaga,68502,Inundación,131,40,0
+2016-07-02,Ocamonte,68498,Movimiento en masa,18,0,1
+2016-07-06,Onzaga,68502,Movimiento en masa,23,1,0
+2016-07-10,Capitanejo,68147,Incendio forestal,1,0,0
+2016-07-11,Pinchote,68549,Incendio forestal,1,0,0
+2016-07-22,Encino,68264,Inundación,217,57,0
+2016-07-25,Charalá,68167,Incendio forestal,2,0,0
+2016-08-05,Bolívar,68101,Incendio forestal,0,1,0
+2016-08-08,Floridablanca,68276,Incendio forestal,1,0,0
+2016-08-09,Rionegro,68615,Movimiento en masa,14,4,1
+2016-08-13,San Gil,68679,Incendio forestal,1,1,0
+2016-08-14,Onzaga,68502,Incendio forestal,3,0,0
+2016-08-16,Concepción,68207,Movimiento en masa,27,1,1
+2016-08-16,Jordán,68370,Incendio forestal,3,0,0
+2016-08-23,Socorro,68755,Incendio forestal,0,0,0
+2016-08-24,Simacota,68745,Incendio forestal,2,0,0
+2016-08-27,Barichara,68079,Incendio forestal,6,0,0
+2016-10-02,La Paz,68397,Movimiento en masa,1,3,1
+2016-10-04,Charalá,68167,Vendaval,38,9,1
+2016-10-05,La Paz,68397,Movimiento en masa,19,5,1
+2016-10-07,Bolívar,68101,Movimiento en masa,19,4,1
+2016-10-07,Cerrito,68162,Movimiento en masa,11,7,0
+2016-10-08,Capitanejo,68147,Inundación,109,25,0
+2016-10-09,Barrancabermeja,68081,Inundación,293,86,1
+2016-10-10,Málaga,68432,Movimiento en masa,5,10,1
+2016-10-10,Barbosa,68077,Movimiento en masa,2,3,1
+2016-10-16,California,68132,Movimiento en masa,31,2,1
+2016-10-17,San Benito,68673,Vendaval,47,11,0
+2016-10-17,Palmas del Socorro,68524,Movimiento en masa,53,3,1
+2016-10-19,La Belleza,68377,Movimiento en masa,30,25,1
+2016-10-21,Socorro,68755,Movimiento en masa,16,1,1
+2016-10-23,Guapotá,68322,Movimiento en masa,19,3,0
+2016-10-25,Charta,68169,Movimiento en masa,16,0,1
+2016-10-26,Charalá,68167,Vendaval,25,7,0
+2016-10-28,Concepción,68207,Movimiento en masa,23,9,1
+2016-11-02,Barrancabermeja,68081,Inundación,107,30,1
+2016-11-10,La Paz,68397,Vendaval,23,6,0
+2016-11-20,Guapotá,68322,Movimiento en masa,29,0,1
+2016-11-20,Charalá,68167,Inundación,118,28,1
+2016-11-26,Betulia,68092,Creciente súbita,31,8,1
+2016-12-13,Vetas,68867,Movimiento en masa,23,0,1
+2017-01-04,Guavatá,68324,Movimiento en masa,11,0,0
+2017-01-08,Bucaramanga,68001,Incendio forestal,0,1,0
+2017-01-13,Los Santos,68418,Incendio forestal,1,0,0
+2017-01-23,El Peñón,68250,Movimiento en masa,15,12,1
+2017-03-03,Concepción,68207,Movimiento en masa,20,0,0
+2017-03-04,San Miguel,68686,Vendaval,5,1,0
+2017-03-09,San Joaquín,68682,Movimiento en masa,29,3,1
+2017-03-11,Bolívar,68101,Creciente súbita,10,2,0
+2017-03-12,Mogotes,68464,Movimiento en masa,20,3,1
+2017-03-14,Oiba,68500,Movimiento en masa,9,9,1
+2017-03-15,Florián,68271,Movimiento en masa,34,2,0
+2017-03-22,Simacota,68745,Movimiento en masa,5,0,1
+2017-03-28,Sabana de Torres,68655,Movimiento en masa,2,1,0
+2017-04-02,Oiba,68500,Movimiento en masa,18,3,0
+2017-04-02,Vélez,68861,Movimiento en masa,26,2,1
+2017-04-04,San Vicente de Chucurí,68689,Movimiento en masa,38,4,0
+2017-04-05,Lebrija,68406,Movimiento en masa,29,1,1
+2017-04-07,El Peñón,68250,Creciente súbita,4,0,0
+2017-04-11,Floridablanca,68276,Movimiento en masa,3,1,0
+2017-04-11,Güepsa,68327,Movimiento en masa,33,1,1
+2017-04-15,El Playón,68255,Movimiento en masa,8,1,0
+2017-04-15,Barrancabermeja,68081,Inundación,56,12,0
+2017-04-16,Contratación,68211,Movimiento en masa,12,4,0
+2017-04-21,San Miguel,68686,Movimiento en masa,59,1,1
+2017-04-21,Socorro,68755,Movimiento en masa,94,2,1
+2017-04-26,Villanueva,68872,Movimiento en masa,11,0,1
+2017-04-27,Cabrera,68121,Movimiento en masa,44,8,0
+2017-04-27,Simacota,68745,Creciente súbita,4,0,0
+2017-04-27,Sabana de Torres,68655,Inundación,277,69,0
+2017-04-28,Betulia,68092,Vendaval,29,6,0
+2017-05-02,Curití,68229,Movimiento en masa,6,3,1
+2017-05-02,Páramo,68533,Movimiento en masa,22,5,1
+2017-05-12,La Paz,68397,Movimiento en masa,12,0,1
+2017-05-15,Zapatoca,68895,Creciente súbita,12,3,0
+2017-05-19,Sucre,68773,Movimiento en masa,54,2,1
+2017-05-21,Carcasí,68152,Movimiento en masa,102,3,1
+2017-05-25,Coromoro,68217,Movimiento en masa,31,0,0
+2017-06-02,Aratoca,68051,Movimiento en masa,41,0,0
+2017-06-02,Sucre,68773,Movimiento en masa,29,8,1
+2017-06-06,Puerto Parra,68573,Inundación,60,13,0
+2017-06-06,Socorro,68755,Movimiento en masa,21,3,1
+2017-06-13,Floridablanca,68276,Vendaval,35,10,0
+2017-06-13,Girón,68307,Inundación,80,19,1
+2017-06-14,El Peñón,68250,Creciente súbita,8,2,0
+2017-06-15,California,68132,Movimiento en masa,22,11,1
+2017-07-06,Simacota,68745,Movimiento en masa,45,0,0
+2017-07-07,Rionegro,68615,Movimiento en masa,23,1,0
+2017-07-14,Cepitá,68160,Creciente súbita,19,5,0
+2017-07-14,Puerto Parra,68573,Movimiento en masa,34,4,0
+2017-07-22,Onzaga,68502,Movimiento en masa,24,6,1
+2017-07-28,San José de Miranda,68684,Movimiento en masa,0,4,1
+2017-08-04,Los Santos,68418,Incendio forestal,3,1,0
+2017-08-05,Aratoca,68051,Incendio forestal,2,0,0
+2017-08-07,Chima,68176,Inundación,87,25,0
+2017-08-22,Chipatá,68179,Movimiento en masa,15,1,0
+2017-09-01,Palmar,68522,Inundación,16,4,0
+2017-09-02,Albania,68020,Movimiento en masa,28,4,1
+2017-09-22,Girón,68307,Movimiento en masa,13,15,1
+2017-10-04,Simacota,68745,Movimiento en masa,7,4,1
+2017-10-05,Santa Helena del Opón,68720,Movimiento en masa,31,1,1
+2017-10-07,Carcasí,68152,Movimiento en masa,25,3,0
+2017-10-07,Guavatá,68324,Movimiento en masa,33,4,0
+2017-10-08,Onzaga,68502,Movimiento en masa,23,2,1
+2017-10-09,Bolívar,68101,Inundación,106,34,0
+2017-10-09,Guapotá,68322,Movimiento en masa,15,2,1
+2017-10-11,Suratá,68780,Movimiento en masa,4,6,1
+2017-10-12,Vetas,68867,Inundación,34,6,1
+2017-10-12,Sucre,68773,Movimiento en masa,2,0,1
+2017-10-14,Contratación,68211,Movimiento en masa,7,3,1
+2017-10-14,Molagavita,68468,Movimiento en masa,22,4,0
+2017-10-15,Zapatoca,68895,Movimiento en masa,42,3,0
+2017-10-15,El Carmen de Chucurí,68235,Inundación,167,46,1
+2017-10-16,San Andrés,68669,Movimiento en masa,35,0,1
+2017-10-17,El Carmen de Chucurí,68235,Inundación,56,12,0
+2017-10-18,Coromoro,68217,Inundación,160,32,0
+2017-10-18,Encino,68264,Movimiento en masa,11,0,1
+2017-10-19,Floridablanca,68276,Movimiento en masa,8,2,1
+2017-10-22,Cimitarra,68190,Inundación,77,17,0
+2017-10-22,Chima,68176,Movimiento en masa,4,4,0
+2017-10-23,El Peñón,68250,Movimiento en masa,12,0,1
+2017-10-24,Aratoca,68051,Movimiento en masa,13,1,0
+2017-10-28,Molagavita,68468,Movimiento en masa,16,0,0
+2017-10-28,Bolívar,68101,Movimiento en masa,19,3,0
+2017-10-28,Puerto Parra,68573,Movimiento en masa,13,3,1
+2017-11-02,Onzaga,68502,Movimiento en masa,12,1,0
+2017-11-03,Mogotes,68464,Movimiento en masa,16,5,1
+2017-11-03,San Andrés,68669,Movimiento en masa,8,4,0
+2017-11-04,Barrancabermeja,68081,Inundación,75,15,0
+2017-11-04,Guavatá,68324,Movimiento en masa,9,3,1
+2017-11-07,Vetas,68867,Vendaval,21,5,0
+2017-11-08,Albania,68020,Movimiento en masa,16,2,1
+2017-11-09,Charta,68169,Movimiento en masa,12,1,1
+2017-11-11,Güepsa,68327,Movimiento en masa,2,0,0
+2017-11-11,Bolívar,68101,Movimiento en masa,12,0,1
+2017-11-11,San José de Miranda,68684,Movimiento en masa,18,1,0
+2017-11-11,El Peñón,68250,Movimiento en masa,34,5,1
+2017-11-11,Oiba,68500,Movimiento en masa,39,2,1
+2017-11-13,Floridablanca,68276,Movimiento en masa,1,0,1
+2017-11-16,Puerto Parra,68573,Inundación,250,50,0
+2017-11-17,Charalá,68167,Inundación,60,14,0
+2017-11-18,San Benito,68673,Movimiento en masa,25,4,1
+2017-11-19,Zapatoca,68895,Movimiento en masa,13,0,0
+2017-11-21,Concepción,68207,Movimiento en masa,8,0,1
+2017-11-21,Málaga,68432,Movimiento en masa,34,1,1
+2017-11-24,Carcasí,68152,Movimiento en masa,24,4,1
+2017-11-24,Puerto Wilches,68575,Inundación,217,67,1
+2017-11-26,Encino,68264,Movimiento en masa,11,3,1
+2017-11-27,Cimitarra,68190,Inundación,43,9,1
+2017-12-02,La Belleza,68377,Movimiento en masa,47,1,0
+2017-12-10,Puerto Parra,68573,Inundación,23,4,0
+2017-12-20,La Paz,68397,Movimiento en masa,19,0,1
+2017-12-23,Tona,68820,Movimiento en masa,42,1,0
+2017-12-25,Mogotes,68464,Movimiento en masa,21,5,1
+2018-01-04,Carcasí,68152,Incendio forestal,2,0,0
+2018-01-10,Villanueva,68872,Incendio forestal,2,0,0
+2018-01-11,San Benito,68673,Movimiento en masa,3,3,1
+2018-01-27,Galán,68296,Incendio forestal,0,1,0
+2018-01-28,Guaca,68318,Movimiento en masa,22,1,1
+2018-02-02,Barbosa,68077,Incendio forestal,1,1,0
+2018-02-03,Bolívar,68101,Movimiento en masa,19,1,0
+2018-02-04,Barichara,68079,Incendio forestal,9,0,0
+2018-02-07,Cepitá,68160,Incendio forestal,1,0,0
+2018-02-08,Santa Helena del Opón,68720,Movimiento en masa,12,0,1
+2018-02-08,Gámbita,68298,Vendaval,59,14,1
+2018-02-15,Hato,68344,Movimiento en masa,13,1,0
+2018-02-16,La Belleza,68377,Movimiento en masa,37,1,0
+2018-02-23,Charalá,68167,Vendaval,33,8,0
+2018-02-25,Vetas,68867,Movimiento en masa,20,4,1
+2018-03-02,Albania,68020,Incendio forestal,4,0,0
+2018-03-05,San Andrés,68669,Movimiento en masa,43,3,1
+2018-03-06,Carcasí,68152,Movimiento en masa,25,5,0
+2018-03-11,Capitanejo,68147,Vendaval,18,5,1
+2018-03-12,La Paz,68397,Movimiento en masa,32,0,0
+2018-03-16,Güepsa,68327,Movimiento en masa,54,2,0
+2018-03-19,Mogotes,68464,Movimiento en masa,38,8,1
+2018-03-22,Sabana de Torres,68655,Inundación,54,13,0
+2018-03-23,Puerto Wilches,68575,Inundación,148,48,0
+2018-03-23,Molagavita,68468,Incendio forestal,1,0,0
+2018-03-26,California,68132,Movimiento en masa,26,1,1
+2018-03-27,Zapatoca,68895,Movimiento en masa,23,4,0
+2018-03-28,San Gil,68679,Inundación,59,12,1
+2018-04-01,Sucre,68773,Movimiento en masa,7,3,0
+2018-04-01,Puente Nacional,68572,Movimiento en masa,22,4,0
+2018-04-02,Girón,68307,Movimiento en masa,20,3,0
+2018-04-04,Concepción,68207,Movimiento en masa,6,2,1
+2018-04-05,Vetas,68867,Movimiento en masa,23,4,1
+2018-04-06,Socorro,68755,Movimiento en masa,10,1,1
+2018-04-06,Valle de San José,68855,Movimiento en masa,9,1,0
+2018-04-07,Enciso,68266,Movimiento en masa,12,13,1
+2018-04-07,Charta,68169,Movimiento en masa,30,4,1
+2018-04-08,Bolívar,68101,Movimiento en masa,10,1,0
+2018-04-09,Oiba,68500,Creciente súbita,37,9,0
+2018-04-10,Onzaga,68502,Movimiento en masa,22,0,0
+2018-04-10,Málaga,68432,Movimiento en masa,26,7,1
+2018-04-10,Palmas del Socorro,68524,Movimiento en masa,28,2,1
+2018-04-11,Encino,68264,Movimiento en masa,15,5,0
+2018-04-11,Puerto Wilches,68575,Movimiento en masa,7,4,1
+2018-04-11,Hato,68344,Vendaval,40,11,0
+2018-04-12,San Andrés,68669,Movimiento en masa,17,15,1
+2018-04-13,Cabrera,68121,Movimiento en masa,41,4,0
+2018-04-15,Jesús María,68368,Creciente súbita,97,22,0
+2018-04-15,Landázuri,68385,Movimiento en masa,13,5,0
+2018-04-16,Florián,68271,Movimiento en masa,23,0,1
+2018-04-18,Hato,68344,Movimiento en masa,29,0,1
+2018-04-18,Puente Nacional,68572,Inundación,105,27,1
+2018-04-18,Santa Helena del Opón,68720,Inundación,83,24,0
+2018-04-19,Hato,68344,Movimiento en masa,19,1,1
+2018-04-19,Sabana de Torres,68655,Inundación,76,17,1
+2018-04-19,Cimitarra,68190,Inundación,256,52,0
+2018-04-19,Ocamonte,68498,Movimiento en masa,20,1,0
+2018-04-20,Pinchote,68549,Movimiento en masa,10,1,1
+2018-04-21,Girón,68307,Movimiento en masa,12,0,0
+2018-04-21,Barrancabermeja,68081,Inundación,87,17,1
+2018-04-21,Barbosa,68077,Movimiento en masa,16,5,0
+2018-04-21,Puente Nacional,68572,Movimiento en masa,32,0,1
+2018-04-23,Coromoro,68217,Movimiento en masa,9,17,1
+2018-04-23,Sucre,68773,Movimiento en masa,29,1,1
+2018-04-24,Mogotes,68464,Movimiento en masa,22,6,1
+2018-04-24,San Miguel,68686,Movimiento en masa,10,2,0
+2018-04-27,Bolívar,68101,Movimiento en masa,21,15,0
+2018-04-27,Florián,68271,Movimiento en masa,3,0,1
+2018-04-27,Vélez,68861,Movimiento en masa,24,0,0
+2018-04-27,Chipatá,68179,Movimiento en masa,20,4,0
+2018-04-27,San Gil,68679,Creciente súbita,45,12,0
+2018-04-27,Tona,68820,Movimiento en masa,12,5,1
+2018-04-28,Cimitarra,68190,Inundación,176,40,0
+2018-05-05,San Andrés,68669,Movimiento en masa,4,0,1
+2018-05-06,Vélez,68861,Movimiento en masa,20,7,1
+2018-05-06,Vetas,68867,Movimiento en masa,18,9,1
+2018-05-06,Piedecuesta,68547,Movimiento en masa,36,7,1
+2018-05-09,Jordán,68370,Movimiento en masa,19,0,1
+2018-05-09,Puerto Wilches,68575,Inundación,138,44,0
+2018-05-11,Onzaga,68502,Movimiento en masa,29,4,0
+2018-05-11,San Miguel,68686,Movimiento en masa,42,1,1
+2018-05-12,Palmas del Socorro,68524,Movimiento en masa,9,5,1
+2018-05-12,Barbosa,68077,Movimiento en masa,6,4,1
+2018-05-12,Santa Bárbara,68705,Movimiento en masa,39,1,1
+2018-05-13,Málaga,68432,Movimiento en masa,23,0,0
+2018-05-13,Puente Nacional,68572,Movimiento en masa,3,4,1
+2018-05-13,Santa Helena del Opón,68720,Creciente súbita,11,2,1
+2018-05-14,Carcasí,68152,Movimiento en masa,4,3,1
+2018-05-15,Guaca,68318,Movimiento en masa,71,2,0
+2018-05-15,Puente Nacional,68572,Movimiento en masa,1,0,1
+2018-05-15,Carcasí,68152,Movimiento en masa,33,0,1
+2018-05-17,Coromoro,68217,Creciente súbita,123,24,1
+2018-05-17,La Belleza,68377,Movimiento en masa,28,7,1
+2018-05-18,Gámbita,68298,Movimiento en masa,20,1,0
+2018-05-19,Suaita,68770,Movimiento en masa,2,3,0
+2018-05-20,El Guacamayo,68245,Movimiento en masa,10,1,1
+2018-05-21,San Benito,68673,Movimiento en masa,10,13,1
+2018-05-22,Tona,68820,Movimiento en masa,24,0,0
+2018-05-23,Socorro,68755,Movimiento en masa,9,0,0
+2018-05-23,Jordán,68370,Movimiento en masa,10,2,1
+2018-05-23,Bolívar,68101,Movimiento en masa,40,3,0
+2018-05-28,Puerto Parra,68573,Inundación,123,34,0
+2018-06-02,Hato,68344,Movimiento en masa,18,1,1
+2018-06-03,Vetas,68867,Movimiento en masa,15,1,0
+2018-06-08,Rionegro,68615,Movimiento en masa,39,0,0
+2018-06-11,Capitanejo,68147,Incendio forestal,3,1,0
+2018-06-13,Socorro,68755,Movimiento en masa,17,0,0
+2018-06-17,Onzaga,68502,Movimiento en masa,13,3,1
+2018-06-17,Sucre,68773,Movimiento en masa,16,1,0
+2018-06-17,Puente Nacional,68572,Movimiento en masa,20,5,1
+2018-06-19,Coromoro,68217,Movimiento en masa,5,0,1
+2018-06-20,Santa Bárbara,68705,Inundación,184,45,0
+2018-06-20,Carcasí,68152,Movimiento en masa,25,1,1
+2018-06-22,Barrancabermeja,68081,Inundación,167,42,0
+2018-06-27,Palmas del Socorro,68524,Movimiento en masa,25,1,1
+2018-06-28,Florián,68271,Movimiento en masa,7,5,1
+2018-07-02,Villanueva,68872,Movimiento en masa,25,0,1
+2018-07-15,Simacota,68745,Vendaval,11,3,0
+2018-07-18,Santa Bárbara,68705,Movimiento en masa,5,0,0
+2018-07-19,Carcasí,68152,Movimiento en masa,6,1,0
+2018-07-19,Guavatá,68324,Movimiento en masa,3,1,1
+2018-07-19,Barbosa,68077,Movimiento en masa,12,3,0
+2018-07-26,Barrancabermeja,68081,Inundación,75,20,0
+2018-07-27,Barbosa,68077,Movimiento en masa,64,9,0
+2018-08-08,Puerto Parra,68573,Creciente súbita,34,7,0
+2018-08-11,Simacota,68745,Incendio forestal,2,0,0
+2018-08-14,Curití,68229,Incendio forestal,1,0,0
+2018-08-15,Lebrija,68406,Movimiento en masa,45,1,1
+2018-08-21,Charta,68169,Movimiento en masa,20,0,0
+2018-08-22,Guapotá,68322,Movimiento en masa,7,3,0
+2018-09-01,Puerto Wilches,68575,Inundación,283,60,0
+2018-09-01,Aratoca,68051,Creciente súbita,22,6,1
+2018-09-01,Capitanejo,68147,Movimiento en masa,32,4,1
+2018-09-02,Cimitarra,68190,Inundación,83,24,1
+2018-09-03,Aratoca,68051,Movimiento en masa,5,0,1
+2018-09-04,Capitanejo,68147,Movimiento en masa,21,4,1
+2018-09-04,Cimitarra,68190,Movimiento en masa,13,4,0
+2018-09-09,Chipatá,68179,Creciente súbita,45,14,0
+2018-09-09,Tona,68820,Movimiento en masa,7,0,1
+2018-09-10,California,68132,Movimiento en masa,20,9,1
+2018-09-11,Sucre,68773,Movimiento en masa,22,2,0
+2018-09-11,Bolívar,68101,Movimiento en masa,29,0,0
+2018-09-11,Chipatá,68179,Movimiento en masa,10,0,1
+2018-09-12,Barichara,68079,Movimiento en masa,49,3,0
+2018-09-12,Onzaga,68502,Movimiento en masa,29,4,0
+2018-09-13,Guaca,68318,Movimiento en masa,14,1,1
+2018-09-13,Concepción,68207,Movimiento en masa,25,1,0
+2018-09-14,Puente Nacional,68572,Movimiento en masa,17,0,1
+2018-09-15,Mogotes,68464,Movimiento en masa,30,5,0
+2018-09-17,Vélez,68861,Movimiento en masa,36,3,1
+2018-09-17,Ocamonte,68498,Movimiento en masa,56,9,0
+2018-09-17,Santa Helena del Opón,68720,Movimiento en masa,17,3,0
+2018-09-18,Tona,68820,Inundación,53,16,1
+2018-09-21,Barichara,68079,Movimiento en masa,19,11,1
+2018-09-22,Güepsa,68327,Vendaval,29,5,0
+2018-09-23,Socorro,68755,Movimiento en masa,2,0,1
+2018-09-23,Sabana de Torres,68655,Inundación,173,39,1
+2018-09-27,Barbosa,68077,Movimiento en masa,16,12,0
+2018-09-27,Matanza,68444,Movimiento en masa,21,1,1
+2018-10-01,California,68132,Movimiento en masa,3,2,1
+2018-10-02,La Paz,68397,Movimiento en masa,14,1,1
+2018-10-02,Santa Bárbara,68705,Movimiento en masa,20,0,1
+2018-10-04,Aratoca,68051,Movimiento en masa,23,1,1
+2018-10-04,San José de Miranda,68684,Movimiento en masa,2,4,0
+2018-10-05,Charta,68169,Movimiento en masa,30,0,0
+2018-10-06,Puerto Parra,68573,Inundación,55,14,0
+2018-10-07,Tona,68820,Movimiento en masa,6,0,1
+2018-10-08,Chipatá,68179,Movimiento en masa,21,4,0
+2018-10-09,Puerto Wilches,68575,Inundación,121,36,0
+2018-10-09,Sucre,68773,Movimiento en masa,6,0,1
+2018-10-12,Vetas,68867,Movimiento en masa,8,3,1
+2018-10-12,Confines,68209,Inundación,49,14,1
+2018-10-13,Chipatá,68179,Incendio forestal,1,0,0
+2018-10-14,El Carmen de Chucurí,68235,Movimiento en masa,27,7,0
+2018-10-15,San Vicente de Chucurí,68689,Movimiento en masa,30,1,1
+2018-10-15,Sucre,68773,Movimiento en masa,15,9,1
+2018-10-15,Suratá,68780,Movimiento en masa,18,1,0
+2018-10-15,Hato,68344,Movimiento en masa,25,10,0
+2018-10-16,Socorro,68755,Movimiento en masa,39,12,1
+2018-10-18,Tona,68820,Movimiento en masa,16,9,1
+2018-10-18,Encino,68264,Movimiento en masa,7,4,0
+2018-10-20,Floridablanca,68276,Movimiento en masa,7,5,1
+2018-10-21,Encino,68264,Movimiento en masa,50,1,0
+2018-10-23,Charta,68169,Movimiento en masa,19,0,1
+2018-10-25,Gámbita,68298,Movimiento en masa,19,4,0
+2018-10-26,Tona,68820,Creciente súbita,20,5,0
+2018-10-26,El Playón,68255,Inundación,85,23,0
+2018-10-27,Matanza,68444,Movimiento en masa,31,4,0
+2018-10-27,Zapatoca,68895,Movimiento en masa,23,0,1
+2018-10-28,Ocamonte,68498,Movimiento en masa,9,2,0
+2018-11-01,San Benito,68673,Movimiento en masa,41,1,1
+2018-11-02,Pinchote,68549,Vendaval,32,6,1
+2018-11-09,Onzaga,68502,Movimiento en masa,33,0,1
+2018-11-09,Bucaramanga,68001,Movimiento en masa,9,1,0
+2018-11-09,Cabrera,68121,Movimiento en masa,16,5,1
+2018-11-12,San Andrés,68669,Movimiento en masa,48,0,1
+2018-11-14,Málaga,68432,Movimiento en masa,7,1,1
+2018-11-14,El Peñón,68250,Movimiento en masa,41,2,0
+2018-11-17,Vélez,68861,Creciente súbita,35,10,0
+2018-11-19,Guadalupe,68320,Movimiento en masa,23,1,1
+2018-11-20,Güepsa,68327,Movimiento en masa,14,6,1
+2018-11-21,Pinchote,68549,Movimiento en masa,33,1,0
+2018-11-24,Tona,68820,Movimiento en masa,34,4,0
+2018-11-26,Villanueva,68872,Movimiento en masa,41,1,1
+2018-12-07,Floridablanca,68276,Vendaval,15,3,0
+2018-12-10,Simacota,68745,Movimiento en masa,27,0,1
+2018-12-11,San Andrés,68669,Movimiento en masa,30,2,1
+2018-12-12,Bolívar,68101,Vendaval,25,7,0
+2018-12-16,Jordán,68370,Incendio forestal,2,0,0
+2018-12-22,San Benito,68673,Vendaval,15,4,0
+2019-01-02,Villanueva,68872,Incendio forestal,3,0,0
+2019-01-07,Barbosa,68077,Movimiento en masa,35,1,0
+2019-01-15,Cabrera,68121,Incendio forestal,0,2,0
+2019-01-15,Molagavita,68468,Incendio forestal,2,1,0
+2019-01-16,San Andrés,68669,Inundación,62,16,1
+2019-02-03,Charalá,68167,Incendio forestal,1,0,0
+2019-02-03,Ocamonte,68498,Incendio forestal,0,0,0
+2019-02-10,Curití,68229,Incendio forestal,1,0,0
+2019-02-13,Enciso,68266,Creciente súbita,64,19,0
+2019-02-14,Ocamonte,68498,Incendio forestal,1,0,0
+2019-02-15,Vetas,68867,Movimiento en masa,16,5,1
+2019-02-22,San Benito,68673,Movimiento en masa,20,1,0
+2019-02-22,Florián,68271,Movimiento en masa,16,1,1
+2019-03-04,Gámbita,68298,Movimiento en masa,52,6,0
+2019-03-04,Simacota,68745,Movimiento en masa,28,1,0
+2019-03-05,Málaga,68432,Vendaval,20,4,0
+2019-03-08,Floridablanca,68276,Movimiento en masa,13,1,1
+2019-03-09,Encino,68264,Movimiento en masa,38,2,0
+2019-03-11,San Miguel,68686,Incendio forestal,3,0,0
+2019-03-16,Enciso,68266,Movimiento en masa,11,2,1
+2019-03-16,Charta,68169,Movimiento en masa,40,0,0
+2019-03-20,Macaravita,68425,Movimiento en masa,18,3,1
+2019-03-22,San Benito,68673,Movimiento en masa,16,0,0
+2019-03-24,Cerrito,68162,Movimiento en masa,10,0,1
+2019-03-26,Floridablanca,68276,Movimiento en masa,13,1,1
+2019-03-28,California,68132,Movimiento en masa,7,3,0
+2019-03-28,Encino,68264,Movimiento en masa,7,2,1
+2019-04-01,Bolívar,68101,Movimiento en masa,5,0,0
+2019-04-02,Güepsa,68327,Movimiento en masa,2,6,0
+2019-04-02,Galán,68296,Movimiento en masa,71,6,0
+2019-04-02,Suratá,68780,Movimiento en masa,8,1,1
+2019-04-05,Betulia,68092,Movimiento en masa,19,0,0
+2019-04-05,Aguada,68013,Creciente súbita,52,10,1
+2019-04-06,Guavatá,68324,Movimiento en masa,43,1,0
+2019-04-08,Simacota,68745,Movimiento en masa,52,6,0
+2019-04-11,San Benito,68673,Movimiento en masa,22,0,0
+2019-04-12,El Peñón,68250,Movimiento en masa,4,3,1
+2019-04-13,El Peñón,68250,Creciente súbita,66,13,0
+2019-04-16,Barrancabermeja,68081,Inundación,65,13,1
+2019-04-16,San Miguel,68686,Incendio forestal,1,0,0
+2019-04-22,La Paz,68397,Movimiento en masa,29,6,1
+2019-04-24,Floridablanca,68276,Movimiento en masa,15,5,0
+2019-04-26,Gámbita,68298,Movimiento en masa,14,1,0
+2019-05-02,Guavatá,68324,Movimiento en masa,18,0,1
+2019-05-04,Barichara,68079,Movimiento en masa,14,7,0
+2019-05-23,Bolívar,68101,Movimiento en masa,14,6,0
+2019-06-17,Cerrito,68162,Vendaval,51,16,1
+2019-07-10,Barbosa,68077,Incendio forestal,1,0,0
+2019-07-11,Pinchote,68549,Incendio forestal,3,0,0
+2019-07-19,La Belleza,68377,Movimiento en masa,12,0,0
+2019-07-21,Gámbita,68298,Incendio forestal,0,0,0
+2019-08-06,Jordán,68370,Incendio forestal,3,0,0
+2019-08-07,Piedecuesta,68547,Incendio forestal,2,0,0
+2019-08-09,Florián,68271,Incendio forestal,0,1,0
+2019-08-12,Onzaga,68502,Incendio forestal,3,0,0
+2019-08-13,Jordán,68370,Vendaval,17,3,0
+2019-08-27,El Carmen de Chucurí,68235,Inundación,23,5,0
+2019-09-10,Rionegro,68615,Vendaval,19,3,0
+2019-09-13,Matanza,68444,Movimiento en masa,30,0,1
+2019-09-27,San Vicente de Chucurí,68689,Movimiento en masa,13,2,0
+2019-10-02,Contratación,68211,Movimiento en masa,30,1,0
+2019-10-02,California,68132,Movimiento en masa,9,5,1
+2019-10-03,Socorro,68755,Movimiento en masa,26,1,1
+2019-10-04,Vetas,68867,Movimiento en masa,9,5,0
+2019-10-05,Charta,68169,Movimiento en masa,22,1,0
+2019-10-05,Landázuri,68385,Movimiento en masa,7,1,1
+2019-10-06,Puerto Parra,68573,Inundación,403,94,0
+2019-10-07,Oiba,68500,Movimiento en masa,6,0,0
+2019-10-09,Güepsa,68327,Movimiento en masa,11,5,0
+2019-10-10,Florián,68271,Movimiento en masa,21,0,1
+2019-10-11,Carcasí,68152,Movimiento en masa,7,1,1
+2019-10-11,Güepsa,68327,Movimiento en masa,12,1,1
+2019-10-12,Encino,68264,Movimiento en masa,5,6,1
+2019-10-19,El Playón,68255,Movimiento en masa,23,2,1
+2019-10-20,Concepción,68207,Movimiento en masa,49,8,1
+2019-10-20,Charta,68169,Movimiento en masa,10,1,0
+2019-10-20,Cerrito,68162,Movimiento en masa,14,8,0
+2019-10-21,Puerto Wilches,68575,Movimiento en masa,5,3,0
+2019-10-23,El Guacamayo,68245,Movimiento en masa,18,4,1
+2019-10-27,Mogotes,68464,Vendaval,35,9,0
+2019-11-01,Tona,68820,Movimiento en masa,6,0,1
+2019-11-09,Simacota,68745,Movimiento en masa,1,0,1
+2019-11-11,Capitanejo,68147,Movimiento en masa,13,3,1
+2019-11-15,Charalá,68167,Movimiento en masa,109,0,0
+2019-11-16,El Playón,68255,Movimiento en masa,5,4,0
+2019-11-16,Charalá,68167,Movimiento en masa,20,2,0
+2019-11-23,Encino,68264,Movimiento en masa,55,0,0
+2019-11-26,San José de Miranda,68684,Inundación,62,13,0
+2019-12-06,Macaravita,68425,Movimiento en masa,60,3,0
+2019-12-08,Vetas,68867,Movimiento en masa,5,2,0
+2019-12-10,Puente Nacional,68572,Movimiento en masa,40,4,1
+2019-12-18,Charta,68169,Movimiento en masa,20,0,0
+2019-12-23,Cimitarra,68190,Inundación,34,6,0
+2019-12-24,Suaita,68770,Movimiento en masa,7,0,0
+2020-01-14,Bucaramanga,68001,Movimiento en masa,8,1,1
+2020-01-22,Confines,68209,Incendio forestal,1,0,0
+2020-02-04,Cimitarra,68190,Vendaval,4,0,0
+2020-02-09,Piedecuesta,68547,Creciente súbita,45,13,0
+2020-02-14,Ocamonte,68498,Incendio forestal,1,0,0
+2020-02-18,Molagavita,68468,Incendio forestal,1,0,0
+2020-03-01,Contratación,68211,Movimiento en masa,39,11,0
+2020-03-01,Matanza,68444,Movimiento en masa,11,0,1
+2020-03-07,Sucre,68773,Movimiento en masa,19,1,0
+2020-03-09,Chipatá,68179,Movimiento en masa,6,0,1
+2020-03-10,La Belleza,68377,Movimiento en masa,20,11,0
+2020-03-11,Vetas,68867,Movimiento en masa,26,21,0
+2020-03-13,Aratoca,68051,Movimiento en masa,26,0,1
+2020-03-14,La Paz,68397,Movimiento en masa,23,2,1
+2020-03-14,Floridablanca,68276,Movimiento en masa,12,7,0
+2020-03-15,Concepción,68207,Movimiento en masa,32,0,0
+2020-03-15,Guadalupe,68320,Movimiento en masa,19,10,1
+2020-03-15,Landázuri,68385,Movimiento en masa,9,0,1
+2020-03-20,Molagavita,68468,Vendaval,24,7,0
+2020-03-23,Guavatá,68324,Movimiento en masa,67,15,1
+2020-03-26,Carcasí,68152,Movimiento en masa,7,9,1
+2020-04-01,Zapatoca,68895,Movimiento en masa,20,3,0
+2020-04-02,Ocamonte,68498,Movimiento en masa,41,14,1
+2020-04-08,Bolívar,68101,Movimiento en masa,32,1,1
+2020-04-11,Barrancabermeja,68081,Inundación,90,19,0
+2020-04-13,Bucaramanga,68001,Movimiento en masa,9,4,1
+2020-04-13,Puerto Parra,68573,Inundación,272,78,0
+2020-04-18,San Andrés,68669,Movimiento en masa,22,4,0
+2020-04-18,Páramo,68533,Movimiento en masa,16,5,0
+2020-04-20,Málaga,68432,Movimiento en masa,6,7,0
+2020-04-22,Concepción,68207,Movimiento en masa,13,7,0
+2020-04-25,Cerrito,68162,Movimiento en masa,36,2,0
+2020-04-25,Encino,68264,Movimiento en masa,51,1,1
+2020-04-26,Contratación,68211,Vendaval,11,2,0
+2020-04-27,Bolívar,68101,Movimiento en masa,8,0,1
+2020-04-27,Suratá,68780,Movimiento en masa,5,1,1
+2020-04-28,Molagavita,68468,Movimiento en masa,33,5,1
+2020-05-02,Pinchote,68549,Movimiento en masa,51,5,1
+2020-05-02,Aguada,68013,Movimiento en masa,7,1,1
+2020-05-03,San Benito,68673,Movimiento en masa,15,0,0
+2020-05-05,Barrancabermeja,68081,Movimiento en masa,16,9,0
+2020-05-05,Simacota,68745,Movimiento en masa,8,1,1
+2020-05-07,El Peñón,68250,Movimiento en masa,12,1,1
+2020-05-08,Guavatá,68324,Movimiento en masa,15,0,0
+2020-05-09,Puerto Parra,68573,Inundación,176,56,0
+2020-05-11,Sucre,68773,Movimiento en masa,16,0,1
+2020-05-11,Gámbita,68298,Movimiento en masa,19,4,0
+2020-05-11,Guapotá,68322,Vendaval,78,24,0
+2020-05-11,Suaita,68770,Movimiento en masa,8,7,0
+2020-05-14,Mogotes,68464,Movimiento en masa,40,1,0
+2020-05-15,Puerto Wilches,68575,Inundación,109,26,0
+2020-05-17,Carcasí,68152,Movimiento en masa,14,2,0
+2020-05-20,Cerrito,68162,Movimiento en masa,7,2,1
+2020-05-21,La Paz,68397,Movimiento en masa,9,1,1
+2020-05-22,San Benito,68673,Movimiento en masa,39,3,0
+2020-05-22,Puerto Wilches,68575,Inundación,106,31,0
+2020-05-23,California,68132,Movimiento en masa,27,0,1
+2020-05-23,Villanueva,68872,Movimiento en masa,1,7,1
+2020-05-25,Suratá,68780,Movimiento en masa,22,3,0
+2020-05-26,Málaga,68432,Movimiento en masa,17,4,1
+2020-05-27,San Joaquín,68682,Movimiento en masa,3,0,1
+2020-06-03,Cabrera,68121,Movimiento en masa,7,8,0
+2020-06-09,Puerto Parra,68573,Inundación,80,21,1
+2020-06-10,Bolívar,68101,Movimiento en masa,33,3,0
+2020-06-12,Oiba,68500,Movimiento en masa,18,4,0
+2020-06-12,Palmas del Socorro,68524,Movimiento en masa,33,7,1
+2020-06-12,Charta,68169,Movimiento en masa,4,2,1
+2020-06-13,Vélez,68861,Movimiento en masa,13,1,1
+2020-06-16,Oiba,68500,Inundación,49,12,0
+2020-06-16,Barrancabermeja,68081,Inundación,119,24,0
+2020-06-20,Socorro,68755,Movimiento en masa,16,11,0
+2020-06-21,Vélez,68861,Movimiento en masa,36,11,1
+2020-06-22,Aguada,68013,Movimiento en masa,68,5,1
+2020-06-22,Puerto Parra,68573,Inundación,141,34,0
+2020-07-03,Piedecuesta,68547,Movimiento en masa,18,0,0
+2020-07-16,Santa Helena del Opón,68720,Movimiento en masa,21,2,1
+2020-07-25,Cerrito,68162,Movimiento en masa,11,7,0
+2020-07-28,Rionegro,68615,Inundación,6,1,1
+2020-08-01,Guapotá,68322,Movimiento en masa,30,1,0
+2020-08-04,Barrancabermeja,68081,Inundación,195,46,0
+2020-08-04,Sucre,68773,Movimiento en masa,28,2,0
+2020-08-06,El Peñón,68250,Movimiento en masa,6,1,0
+2020-08-18,San Miguel,68686,Movimiento en masa,15,1,1
+2020-08-19,El Carmen de Chucurí,68235,Movimiento en masa,33,1,1
+2020-08-20,Vetas,68867,Incendio forestal,3,0,0
+2020-09-02,Matanza,68444,Movimiento en masa,12,0,1
+2020-09-04,El Guacamayo,68245,Movimiento en masa,16,11,0
+2020-09-08,Carcasí,68152,Creciente súbita,16,3,1
+2020-09-09,Puerto Parra,68573,Movimiento en masa,43,4,1
+2020-09-13,San José de Miranda,68684,Movimiento en masa,19,3,1
+2020-09-17,San Andrés,68669,Vendaval,28,8,0
+2020-09-18,Floridablanca,68276,Movimiento en masa,13,3,1
+2020-09-19,Barrancabermeja,68081,Inundación,134,27,0
+2020-10-01,El Playón,68255,Movimiento en masa,16,5,0
+2020-10-06,San Andrés,68669,Movimiento en masa,30,1,0
+2020-10-11,Barrancabermeja,68081,Inundación,37,9,0
+2020-10-12,Puerto Parra,68573,Movimiento en masa,35,0,0
+2020-10-14,Zapatoca,68895,Movimiento en masa,52,5,0
+2020-10-15,Mogotes,68464,Movimiento en masa,18,15,1
+2020-10-17,Confines,68209,Movimiento en masa,43,6,0
+2020-10-19,Jesús María,68368,Movimiento en masa,0,1,1
+2020-10-21,San José de Miranda,68684,Movimiento en masa,95,4,0
+2020-10-22,Carcasí,68152,Incendio forestal,1,1,0
+2020-10-22,San José de Miranda,68684,Inundación,57,15,0
+2020-10-24,Onzaga,68502,Movimiento en masa,14,5,1
+2020-10-25,San José de Miranda,68684,Movimiento en masa,23,0,0
+2020-10-26,San Benito,68673,Movimiento en masa,5,2,1
+2020-10-28,Vélez,68861,Movimiento en masa,13,1,1
+2020-11-02,Güepsa,68327,Movimiento en masa,3,3,0
+2020-11-04,Sucre,68773,Movimiento en masa,33,0,0
+2020-11-04,Vetas,68867,Movimiento en masa,16,2,1
+2020-11-04,Mogotes,68464,Movimiento en masa,10,1,0
+2020-11-05,Coromoro,68217,Creciente súbita,38,7,0
+2020-11-05,Bucaramanga,68001,Movimiento en masa,5,0,1
+2020-11-06,Galán,68296,Movimiento en masa,3,0,1
+2020-11-07,Floridablanca,68276,Movimiento en masa,11,1,1
+2020-11-07,Barrancabermeja,68081,Inundación,42,10,0
+2020-11-07,San Vicente de Chucurí,68689,Movimiento en masa,32,1,0
+2020-11-08,Tona,68820,Movimiento en masa,64,1,0
+2020-11-09,Floridablanca,68276,Movimiento en masa,27,6,1
+2020-11-10,San Miguel,68686,Movimiento en masa,20,0,0
+2020-11-11,Puerto Wilches,68575,Creciente súbita,35,10,0
+2020-11-12,San Miguel,68686,Movimiento en masa,69,0,1
+2020-11-12,Cimitarra,68190,Inundación,46,9,0
+2020-11-14,San Andrés,68669,Movimiento en masa,13,1,0
+2020-11-15,Guaca,68318,Movimiento en masa,7,1,0
+2020-11-17,Concepción,68207,Movimiento en masa,25,2,0
+2020-11-18,Encino,68264,Movimiento en masa,24,0,0
+2020-11-19,El Carmen de Chucurí,68235,Movimiento en masa,11,3,1
+2020-11-19,Encino,68264,Movimiento en masa,14,4,1
+2020-11-20,Guapotá,68322,Movimiento en masa,5,3,1
+2020-11-21,Cerrito,68162,Movimiento en masa,21,3,1
+2020-11-21,Guavatá,68324,Inundación,10,2,1
+2020-11-22,Barrancabermeja,68081,Inundación,76,17,0
+2020-11-24,Aguada,68013,Movimiento en masa,7,0,1
+2020-11-26,Ocamonte,68498,Movimiento en masa,8,0,0
+2020-11-26,Puerto Parra,68573,Inundación,166,42,0
+2020-11-28,Gámbita,68298,Movimiento en masa,26,2,1
+2020-12-03,Puerto Parra,68573,Inundación,44,12,0
+2020-12-11,Onzaga,68502,Movimiento en masa,3,2,0
+2020-12-13,Puerto Parra,68573,Inundación,277,56,1
+2020-12-19,Albania,68020,Movimiento en masa,7,1,1
+2020-12-24,Contratación,68211,Movimiento en masa,42,0,1
+2020-12-24,Tona,68820,Creciente súbita,41,12,0
+2020-12-28,San Benito,68673,Movimiento en masa,28,0,1
+2020-12-28,Puerto Parra,68573,Vendaval,41,12,0
+2021-01-01,Palmas del Socorro,68524,Movimiento en masa,1,2,1
+2021-01-03,Ocamonte,68498,Movimiento en masa,22,2,0
+2021-01-05,Sabana de Torres,68655,Inundación,74,15,1
+2021-01-05,Galán,68296,Vendaval,26,5,0
+2021-01-06,Guavatá,68324,Incendio forestal,2,0,0
+2021-01-15,Jesús María,68368,Creciente súbita,34,10,0
+2021-01-19,Santa Bárbara,68705,Incendio forestal,1,0,0
+2021-01-22,Confines,68209,Vendaval,33,7,0
+2021-02-22,Vélez,68861,Movimiento en masa,59,0,0
+2021-02-23,Santa Helena del Opón,68720,Incendio forestal,2,0,0
+2021-03-01,Girón,68307,Incendio forestal,3,1,0
+2021-03-02,Santa Helena del Opón,68720,Movimiento en masa,5,1,1
+2021-03-12,California,68132,Movimiento en masa,28,12,0
+2021-03-13,Barrancabermeja,68081,Inundación,61,18,1
+2021-03-13,Concepción,68207,Vendaval,23,7,0
+2021-03-15,Onzaga,68502,Movimiento en masa,69,3,1
+2021-03-17,Valle de San José,68855,Incendio forestal,1,0,0
+2021-03-19,Floridablanca,68276,Movimiento en masa,44,1,0
+2021-03-20,Barbosa,68077,Movimiento en masa,17,6,0
+2021-03-21,Barbosa,68077,Movimiento en masa,30,5,1
+2021-03-22,San Gil,68679,Movimiento en masa,28,0,0
+2021-04-01,Concepción,68207,Movimiento en masa,47,1,1
+2021-04-02,Sucre,68773,Movimiento en masa,44,0,0
+2021-04-07,Ocamonte,68498,Inundación,51,13,0
+2021-04-07,Socorro,68755,Movimiento en masa,36,6,0
+2021-04-08,Puerto Wilches,68575,Inundación,150,42,0
+2021-04-09,Charta,68169,Movimiento en masa,3,3,1
+2021-04-09,Oiba,68500,Movimiento en masa,13,2,1
+2021-04-09,Confines,68209,Movimiento en masa,23,0,1
+2021-04-12,Puerto Wilches,68575,Inundación,61,12,1
+2021-04-12,Concepción,68207,Movimiento en masa,23,4,0
+2021-04-13,San Gil,68679,Movimiento en masa,30,0,0
+2021-04-15,San Miguel,68686,Inundación,112,26,0
+2021-04-15,Capitanejo,68147,Movimiento en masa,23,5,1
+2021-04-16,La Paz,68397,Movimiento en masa,59,9,0
+2021-04-17,Aratoca,68051,Movimiento en masa,4,3,0
+2021-04-17,La Belleza,68377,Movimiento en masa,25,1,0
+2021-04-18,Landázuri,68385,Movimiento en masa,50,2,1
+2021-04-18,Palmar,68522,Movimiento en masa,6,0,1
+2021-04-19,Rionegro,68615,Movimiento en masa,30,19,0
+2021-04-21,Barbosa,68077,Vendaval,13,3,0
+2021-04-22,Galán,68296,Movimiento en masa,24,6,1
+2021-04-23,Guapotá,68322,Movimiento en masa,7,5,0
+2021-04-23,Barrancabermeja,68081,Inundación,165,42,0
+2021-04-24,Santa Helena del Opón,68720,Movimiento en masa,16,0,0
+2021-04-24,Charta,68169,Movimiento en masa,13,5,1
+2021-04-25,Aguada,68013,Movimiento en masa,30,2,1
+2021-04-26,San Miguel,68686,Creciente súbita,5,1,0
+2021-04-27,Floridablanca,68276,Movimiento en masa,9,1,0
+2021-04-27,Cimitarra,68190,Movimiento en masa,35,1,1
+2021-04-28,Hato,68344,Movimiento en masa,41,6,1
+2021-04-28,Ocamonte,68498,Movimiento en masa,8,5,1
+2021-04-28,Sucre,68773,Movimiento en masa,9,0,1
+2021-04-28,Barrancabermeja,68081,Movimiento en masa,43,0,1
+2021-05-01,San Miguel,68686,Movimiento en masa,15,0,0
+2021-05-04,Sabana de Torres,68655,Inundación,112,24,0
+2021-05-05,Puente Nacional,68572,Movimiento en masa,63,2,0
+2021-05-05,Puerto Wilches,68575,Movimiento en masa,22,0,1
+2021-05-06,Cabrera,68121,Movimiento en masa,38,6,1
+2021-05-06,Charta,68169,Movimiento en masa,12,4,1
+2021-05-07,Guavatá,68324,Movimiento en masa,22,1,0
+2021-05-07,Sucre,68773,Movimiento en masa,22,2,1
+2021-05-11,Santa Helena del Opón,68720,Movimiento en masa,37,23,1
+2021-05-12,Barrancabermeja,68081,Movimiento en masa,36,1,0
+2021-05-13,Cabrera,68121,Movimiento en masa,9,1,1
+2021-05-13,Pinchote,68549,Inundación,105,34,0
+2021-05-17,Charta,68169,Movimiento en masa,21,8,1
+2021-05-17,Coromoro,68217,Movimiento en masa,88,0,1
+2021-05-17,Puerto Parra,68573,Inundación,13,2,1
+2021-05-20,Sabana de Torres,68655,Movimiento en masa,10,3,1
+2021-05-26,Bucaramanga,68001,Movimiento en masa,6,3,1
+2021-05-26,Bolívar,68101,Movimiento en masa,26,5,0
+2021-05-27,Sabana de Torres,68655,Inundación,13,2,0
+2021-06-01,El Playón,68255,Movimiento en masa,26,2,0
+2021-06-05,Girón,68307,Movimiento en masa,7,2,1
+2021-06-06,San Joaquín,68682,Movimiento en masa,60,0,1
+2021-06-06,Cerrito,68162,Movimiento en masa,6,9,1
+2021-06-11,Cimitarra,68190,Inundación,59,18,1
+2021-06-13,Girón,68307,Inundación,58,13,0
+2021-06-23,Curití,68229,Movimiento en masa,66,2,0
+2021-06-23,Ocamonte,68498,Movimiento en masa,13,3,1
+2021-06-27,Galán,68296,Movimiento en masa,14,3,0
+2021-07-03,Capitanejo,68147,Movimiento en masa,0,17,0
+2021-07-09,San José de Miranda,68684,Creciente súbita,48,15,0
+2021-08-04,Oiba,68500,Incendio forestal,1,0,0
+2021-08-06,Macaravita,68425,Movimiento en masa,80,1,1
+2021-08-06,California,68132,Movimiento en masa,3,0,1
+2021-08-07,Betulia,68092,Creciente súbita,10,2,0
+2021-08-09,Curití,68229,Movimiento en masa,20,3,0
+2021-08-10,Vélez,68861,Movimiento en masa,31,1,1
+2021-08-10,Piedecuesta,68547,Movimiento en masa,20,4,1
+2021-08-13,Chipatá,68179,Movimiento en masa,24,1,1
+2021-08-19,Barrancabermeja,68081,Inundación,23,5,0
+2021-08-20,Contratación,68211,Movimiento en masa,26,4,0
+2021-08-20,Puente Nacional,68572,Movimiento en masa,17,2,0
+2021-08-23,Capitanejo,68147,Incendio forestal,2,0,0
+2021-08-24,Cerrito,68162,Movimiento en masa,7,0,1
+2021-08-25,El Peñón,68250,Movimiento en masa,26,0,0
+2021-08-27,La Belleza,68377,Movimiento en masa,9,4,1
+2021-09-01,Cimitarra,68190,Vendaval,45,12,0
+2021-09-01,Zapatoca,68895,Movimiento en masa,39,3,1
+2021-09-04,San José de Miranda,68684,Movimiento en masa,27,9,0
+2021-09-05,Cimitarra,68190,Movimiento en masa,13,2,1
+2021-09-09,Santa Helena del Opón,68720,Movimiento en masa,12,1,0
+2021-09-12,Suaita,68770,Movimiento en masa,51,16,1
+2021-09-16,California,68132,Movimiento en masa,10,1,0
+2021-09-20,Confines,68209,Vendaval,35,10,1
+2021-09-23,Onzaga,68502,Movimiento en masa,16,5,1
+2021-09-26,Güepsa,68327,Movimiento en masa,15,1,0
+2021-10-03,Barbosa,68077,Movimiento en masa,40,2,1
+2021-10-03,Albania,68020,Movimiento en masa,55,1,0
+2021-10-04,Vélez,68861,Movimiento en masa,22,2,1
+2021-10-05,Onzaga,68502,Movimiento en masa,17,0,1
+2021-10-06,Barbosa,68077,Movimiento en masa,15,1,1
+2021-10-07,Capitanejo,68147,Movimiento en masa,6,3,1
+2021-10-10,Curití,68229,Movimiento en masa,15,1,1
+2021-10-13,Barrancabermeja,68081,Inundación,123,33,0
+2021-10-13,Sabana de Torres,68655,Inundación,48,9,1
+2021-10-15,Chima,68176,Movimiento en masa,11,6,1
+2021-10-15,Cabrera,68121,Movimiento en masa,37,1,1
+2021-10-17,Carcasí,68152,Movimiento en masa,31,7,1
+2021-10-18,El Guacamayo,68245,Movimiento en masa,25,1,0
+2021-10-19,Concepción,68207,Movimiento en masa,27,0,1
+2021-10-19,Vetas,68867,Movimiento en masa,38,3,1
+2021-10-21,Mogotes,68464,Movimiento en masa,27,2,0
+2021-10-21,Enciso,68266,Inundación,43,12,0
+2021-10-21,Cerrito,68162,Movimiento en masa,16,6,1
+2021-10-24,Encino,68264,Movimiento en masa,49,14,0
+2021-10-28,Puente Nacional,68572,Movimiento en masa,27,0,1
+2021-10-28,Puerto Wilches,68575,Movimiento en masa,15,8,1
+2021-11-02,Zapatoca,68895,Movimiento en masa,36,0,1
+2021-11-03,Piedecuesta,68547,Vendaval,35,11,0
+2021-11-04,Puerto Wilches,68575,Inundación,114,28,0
+2021-11-07,Barrancabermeja,68081,Inundación,106,26,0
+2021-11-12,Encino,68264,Movimiento en masa,15,5,1
+2021-11-13,Coromoro,68217,Movimiento en masa,9,0,1
+2021-11-13,Puerto Wilches,68575,Creciente súbita,84,18,0
+2021-11-15,Cabrera,68121,Movimiento en masa,8,4,1
+2021-11-17,Vetas,68867,Movimiento en masa,13,2,0
+2021-11-17,Pinchote,68549,Movimiento en masa,31,0,1
+2021-11-17,El Guacamayo,68245,Creciente súbita,16,3,0
+2021-11-23,Vélez,68861,Movimiento en masa,47,1,0
+2021-11-26,Contratación,68211,Movimiento en masa,58,3,0
+2021-11-26,Cerrito,68162,Movimiento en masa,7,1,1
+2021-11-28,Valle de San José,68855,Movimiento en masa,28,0,0
+2021-12-05,Concepción,68207,Movimiento en masa,6,6,1
+2021-12-08,Galán,68296,Inundación,49,12,0
+2021-12-18,Ocamonte,68498,Creciente súbita,14,3,0
+2021-12-19,Cimitarra,68190,Inundación,126,26,0
+2021-12-19,Onzaga,68502,Movimiento en masa,26,7,1
+2021-12-25,California,68132,Movimiento en masa,6,2,1
+2022-01-08,Macaravita,68425,Creciente súbita,14,3,0
+2022-01-10,Puerto Parra,68573,Inundación,82,17,0
+2022-01-16,Aratoca,68051,Incendio forestal,1,0,0
+2022-01-18,El Peñón,68250,Movimiento en masa,67,1,1
+2022-01-23,La Belleza,68377,Inundación,113,28,0
+2022-02-05,Encino,68264,Movimiento en masa,32,0,0
+2022-02-06,Puerto Parra,68573,Inundación,80,24,0
+2022-02-07,Onzaga,68502,Inundación,24,6,0
+2022-02-11,Ocamonte,68498,Movimiento en masa,2,6,1
+2022-02-14,Concepción,68207,Movimiento en masa,7,2,1
+2022-02-14,Vélez,68861,Movimiento en masa,41,1,1
+2022-02-18,Bucaramanga,68001,Incendio forestal,2,0,0
+2022-02-26,Molagavita,68468,Movimiento en masa,80,2,1
+2022-02-28,Barrancabermeja,68081,Inundación,89,19,0
+2022-02-28,Socorro,68755,Movimiento en masa,27,4,0
+2022-03-02,Encino,68264,Movimiento en masa,3,4,1
+2022-03-04,Encino,68264,Movimiento en masa,23,0,1
+2022-03-04,Onzaga,68502,Movimiento en masa,8,0,1
+2022-03-05,Piedecuesta,68547,Movimiento en masa,8,0,1
+2022-03-10,Puerto Wilches,68575,Inundación,165,36,0
+2022-03-13,San José de Miranda,68684,Movimiento en masa,13,7,1
+2022-03-16,San Andrés,68669,Movimiento en masa,28,5,0
+2022-03-17,Bolívar,68101,Movimiento en masa,55,0,1
+2022-03-18,Santa Bárbara,68705,Movimiento en masa,8,0,1
+2022-03-19,Mogotes,68464,Movimiento en masa,24,1,1
+2022-03-19,Curití,68229,Movimiento en masa,134,4,0
+2022-03-22,Puerto Wilches,68575,Inundación,33,9,1
+2022-04-01,Aratoca,68051,Movimiento en masa,22,17,1
+2022-04-01,San Joaquín,68682,Movimiento en masa,7,1,0
+2022-04-03,Florián,68271,Movimiento en masa,17,0,1
+2022-04-03,San Miguel,68686,Movimiento en masa,6,1,1
+2022-04-04,Puerto Parra,68573,Inundación,143,28,1
+2022-04-05,Cimitarra,68190,Movimiento en masa,14,5,0
+2022-04-06,San Joaquín,68682,Movimiento en masa,18,1,1
+2022-04-06,Puerto Wilches,68575,Inundación,70,15,0
+2022-04-07,Vélez,68861,Movimiento en masa,10,3,0
+2022-04-07,Socorro,68755,Movimiento en masa,28,2,1
+2022-04-08,Guapotá,68322,Movimiento en masa,0,4,1
+2022-04-12,La Belleza,68377,Movimiento en masa,22,1,1
+2022-04-13,Cerrito,68162,Creciente súbita,15,3,0
+2022-04-13,Puerto Parra,68573,Movimiento en masa,57,1,1
+2022-04-15,Barichara,68079,Inundación,81,16,0
+2022-04-17,Floridablanca,68276,Movimiento en masa,19,0,0
+2022-04-18,Curití,68229,Movimiento en masa,16,5,1
+2022-04-18,Carcasí,68152,Movimiento en masa,37,5,0
+2022-04-19,Zapatoca,68895,Inundación,57,11,0
+2022-04-19,Mogotes,68464,Movimiento en masa,54,0,0
+2022-04-21,Cerrito,68162,Movimiento en masa,16,6,1
+2022-04-21,Florián,68271,Movimiento en masa,58,4,0
+2022-04-22,San Andrés,68669,Movimiento en masa,10,1,0
+2022-04-22,Málaga,68432,Movimiento en masa,60,4,1
+2022-04-22,San Miguel,68686,Vendaval,47,11,0
+2022-04-25,El Peñón,68250,Movimiento en masa,21,2,1
+2022-05-03,Sabana de Torres,68655,Inundación,136,33,1
+2022-05-03,San Benito,68673,Movimiento en masa,7,0,1
+2022-05-03,La Belleza,68377,Movimiento en masa,19,0,0
+2022-05-03,Floridablanca,68276,Movimiento en masa,10,2,1
+2022-05-03,San Andrés,68669,Movimiento en masa,8,2,0
+2022-05-03,Sabana de Torres,68655,Movimiento en masa,6,7,0
+2022-05-04,San Joaquín,68682,Movimiento en masa,26,1,0
+2022-05-06,Bolívar,68101,Movimiento en masa,4,6,0
+2022-05-06,Suratá,68780,Movimiento en masa,54,0,0
+2022-05-08,Socorro,68755,Movimiento en masa,9,0,0
+2022-05-10,Barrancabermeja,68081,Inundación,142,37,0
+2022-05-10,Guavatá,68324,Movimiento en masa,6,4,0
+2022-05-10,Sucre,68773,Movimiento en masa,1,5,0
+2022-05-10,Cimitarra,68190,Creciente súbita,7,1,0
+2022-05-10,Girón,68307,Movimiento en masa,18,1,0
+2022-05-12,Confines,68209,Movimiento en masa,33,6,1
+2022-05-12,Aratoca,68051,Movimiento en masa,11,6,1
+2022-05-12,Socorro,68755,Movimiento en masa,6,0,0
+2022-05-12,Suaita,68770,Movimiento en masa,42,1,1
+2022-05-13,Piedecuesta,68547,Movimiento en masa,30,7,1
+2022-05-13,Encino,68264,Movimiento en masa,9,0,0
+2022-05-14,Charalá,68167,Movimiento en masa,34,2,0
+2022-05-14,Macaravita,68425,Movimiento en masa,9,1,0
+2022-05-14,Puerto Wilches,68575,Inundación,118,28,1
+2022-05-14,Rionegro,68615,Movimiento en masa,9,0,1
+2022-05-14,Puerto Parra,68573,Inundación,111,29,0
+2022-05-15,Sucre,68773,Movimiento en masa,21,0,0
+2022-05-16,Ocamonte,68498,Movimiento en masa,45,1,1
+2022-05-16,Simacota,68745,Movimiento en masa,1,0,1
+2022-05-16,Guadalupe,68320,Movimiento en masa,5,5,0
+2022-05-17,Zapatoca,68895,Movimiento en masa,6,2,1
+2022-05-17,Málaga,68432,Movimiento en masa,65,4,0
+2022-05-19,Cabrera,68121,Movimiento en masa,28,1,1
+2022-05-19,El Carmen de Chucurí,68235,Movimiento en masa,9,8,1
+2022-05-20,Concepción,68207,Movimiento en masa,11,4,1
+2022-05-21,El Peñón,68250,Movimiento en masa,25,0,0
+2022-05-23,San José de Miranda,68684,Movimiento en masa,26,1,1
+2022-05-24,Charta,68169,Movimiento en masa,16,2,0
+2022-05-25,Tona,68820,Movimiento en masa,15,0,1
+2022-05-25,Mogotes,68464,Movimiento en masa,68,10,1
+2022-05-25,Puente Nacional,68572,Movimiento en masa,4,0,1
+2022-05-25,Barrancabermeja,68081,Movimiento en masa,31,0,1
+2022-05-26,Charta,68169,Movimiento en masa,35,14,1
+2022-05-26,Málaga,68432,Movimiento en masa,4,0,1
+2022-05-27,Sabana de Torres,68655,Inundación,156,44,0
+2022-05-27,San Andrés,68669,Movimiento en masa,21,0,1
+2022-05-27,Güepsa,68327,Movimiento en masa,44,4,1
+2022-05-27,Cimitarra,68190,Creciente súbita,18,5,0
+2022-05-28,Cerrito,68162,Movimiento en masa,23,0,1
+2022-05-28,El Playón,68255,Movimiento en masa,19,0,1
+2022-06-03,Floridablanca,68276,Movimiento en masa,119,2,1
+2022-06-05,Barbosa,68077,Movimiento en masa,29,4,1
+2022-06-06,Güepsa,68327,Movimiento en masa,3,1,1
+2022-06-09,Puerto Parra,68573,Inundación,42,9,0
+2022-06-09,Charta,68169,Movimiento en masa,31,3,1
+2022-06-10,Villanueva,68872,Movimiento en masa,12,1,0
+2022-06-10,Santa Bárbara,68705,Movimiento en masa,7,3,1
+2022-06-17,Barichara,68079,Movimiento en masa,41,4,1
+2022-06-20,La Belleza,68377,Movimiento en masa,12,6,1
+2022-06-21,Sucre,68773,Movimiento en masa,20,9,1
+2022-06-21,Puerto Wilches,68575,Movimiento en masa,35,1,0
+2022-06-21,Suaita,68770,Movimiento en masa,10,0,0
+2022-06-22,Ocamonte,68498,Movimiento en masa,13,3,0
+2022-06-22,Bucaramanga,68001,Vendaval,12,3,0
+2022-06-22,Villanueva,68872,Movimiento en masa,41,2,1
+2022-06-24,Mogotes,68464,Movimiento en masa,16,2,1
+2022-06-26,La Belleza,68377,Movimiento en masa,10,5,0
+2022-07-03,San Miguel,68686,Movimiento en masa,4,5,0
+2022-07-04,Rionegro,68615,Creciente súbita,37,8,0
+2022-07-04,Chipatá,68179,Movimiento en masa,19,7,0
+2022-07-10,Carcasí,68152,Movimiento en masa,21,6,0
+2022-07-11,La Paz,68397,Movimiento en masa,16,9,1
+2022-07-12,Cimitarra,68190,Inundación,90,20,0
+2022-07-22,Sucre,68773,Movimiento en masa,27,3,1
+2022-07-26,California,68132,Movimiento en masa,36,0,0
+2022-07-28,Encino,68264,Movimiento en masa,23,4,1
+2022-08-03,El Peñón,68250,Movimiento en masa,31,24,1
+2022-08-04,El Peñón,68250,Movimiento en masa,16,1,1
+2022-08-04,Valle de San José,68855,Movimiento en masa,31,3,1
+2022-08-04,Guaca,68318,Movimiento en masa,26,4,1
+2022-08-05,Sucre,68773,Movimiento en masa,40,2,0
+2022-08-06,Vélez,68861,Movimiento en masa,23,3,1
+2022-08-08,San Joaquín,68682,Movimiento en masa,7,1,0
+2022-08-08,Galán,68296,Movimiento en masa,19,0,1
+2022-08-08,Puerto Parra,68573,Movimiento en masa,35,0,0
+2022-08-16,Barrancabermeja,68081,Inundación,27,6,1
+2022-08-18,Carcasí,68152,Movimiento en masa,23,0,0
+2022-08-21,Concepción,68207,Movimiento en masa,15,4,1
+2022-08-28,Charta,68169,Creciente súbita,52,12,0
+2022-09-03,Guadalupe,68320,Creciente súbita,2,0,0
+2022-09-03,La Belleza,68377,Movimiento en masa,21,3,0
+2022-09-05,Carcasí,68152,Movimiento en masa,5,0,0
+2022-09-07,Onzaga,68502,Movimiento en masa,21,0,1
+2022-09-08,Betulia,68092,Incendio forestal,2,1,0
+2022-09-12,San Gil,68679,Movimiento en masa,16,4,1
+2022-09-13,Galán,68296,Movimiento en masa,18,4,1
+2022-09-14,Vélez,68861,Movimiento en masa,54,9,1
+2022-09-14,Puerto Wilches,68575,Movimiento en masa,16,2,1
+2022-09-16,San Andrés,68669,Movimiento en masa,9,8,1
+2022-09-18,Bucaramanga,68001,Movimiento en masa,17,8,0
+2022-09-19,El Peñón,68250,Movimiento en masa,34,0,1
+2022-09-21,Macaravita,68425,Movimiento en masa,18,6,0
+2022-09-23,Socorro,68755,Movimiento en masa,18,10,0
+2022-09-27,Málaga,68432,Movimiento en masa,31,2,1
+2022-10-02,Curití,68229,Movimiento en masa,9,0,1
+2022-10-02,Oiba,68500,Movimiento en masa,9,5,0
+2022-10-03,Vetas,68867,Movimiento en masa,68,4,0
+2022-10-03,Mogotes,68464,Movimiento en masa,5,0,1
+2022-10-04,Girón,68307,Movimiento en masa,21,6,0
+2022-10-06,Sabana de Torres,68655,Inundación,163,34,0
+2022-10-06,San Andrés,68669,Inundación,149,32,0
+2022-10-07,California,68132,Movimiento en masa,44,8,0
+2022-10-08,Gámbita,68298,Movimiento en masa,8,1,0
+2022-10-08,Guavatá,68324,Movimiento en masa,15,1,1
+2022-10-09,Molagavita,68468,Movimiento en masa,7,3,0
+2022-10-09,Lebrija,68406,Movimiento en masa,12,0,0
+2022-10-10,San Gil,68679,Movimiento en masa,44,0,0
+2022-10-11,Charta,68169,Movimiento en masa,13,4,1
+2022-10-15,Bolívar,68101,Movimiento en masa,8,5,1
+2022-10-15,San Miguel,68686,Movimiento en masa,40,6,1
+2022-10-15,La Belleza,68377,Movimiento en masa,5,3,1
+2022-10-16,Barrancabermeja,68081,Inundación,38,8,0
+2022-10-17,Bucaramanga,68001,Movimiento en masa,21,0,0
+2022-10-19,Barbosa,68077,Inundación,47,11,0
+2022-10-20,Cepitá,68160,Movimiento en masa,4,0,0
+2022-10-21,Puente Nacional,68572,Incendio forestal,3,1,0
+2022-10-24,San Andrés,68669,Movimiento en masa,13,5,0
+2022-10-26,Mogotes,68464,Movimiento en masa,52,4,1
+2022-10-28,Puerto Wilches,68575,Inundación,41,13,0
+2022-10-28,Barrancabermeja,68081,Movimiento en masa,10,2,1
+2022-10-28,Güepsa,68327,Movimiento en masa,11,3,1
+2022-11-01,Charta,68169,Inundación,116,38,0
+2022-11-02,Hato,68344,Inundación,262,63,0
+2022-11-06,Coromoro,68217,Movimiento en masa,6,1,0
+2022-11-06,Cimitarra,68190,Inundación,176,50,0
+2022-11-07,Vélez,68861,Creciente súbita,47,12,0
+2022-11-09,El Peñón,68250,Creciente súbita,46,10,1
+2022-11-09,Floridablanca,68276,Movimiento en masa,4,1,1
+2022-11-09,Onzaga,68502,Movimiento en masa,17,3,1
+2022-11-11,Barrancabermeja,68081,Inundación,149,36,0
+2022-11-16,El Peñón,68250,Movimiento en masa,33,0,1
+2022-11-16,Puerto Parra,68573,Inundación,59,16,0
+2022-11-18,Charalá,68167,Movimiento en masa,17,2,1
+2022-11-20,Barrancabermeja,68081,Inundación,110,35,0
+2022-11-20,Zapatoca,68895,Movimiento en masa,13,7,0
+2022-11-21,Villanueva,68872,Movimiento en masa,24,0,1
+2022-11-21,Puerto Wilches,68575,Inundación,13,3,0
+2022-11-21,La Paz,68397,Movimiento en masa,25,0,0
+2022-11-23,Páramo,68533,Movimiento en masa,30,1,0
+2022-11-23,San Benito,68673,Movimiento en masa,31,9,0
+2022-11-24,Socorro,68755,Movimiento en masa,25,10,0
+2022-11-25,San Andrés,68669,Movimiento en masa,28,2,1
+2022-11-26,Charta,68169,Movimiento en masa,6,2,1
+2022-11-28,Onzaga,68502,Movimiento en masa,68,5,0
+2022-11-28,Sucre,68773,Movimiento en masa,8,1,0
+2022-12-05,Aratoca,68051,Movimiento en masa,21,4,0
+2022-12-18,Albania,68020,Inundación,101,27,0
+2022-12-18,Guavatá,68324,Vendaval,30,7,0
+2022-12-19,Encino,68264,Movimiento en masa,4,6,1
+2022-12-22,Guadalupe,68320,Movimiento en masa,7,0,1
+2023-01-06,Palmar,68522,Incendio forestal,1,0,0
+2023-01-06,Valle de San José,68855,Incendio forestal,0,1,0
+2023-01-23,Los Santos,68418,Incendio forestal,1,0,0
+2023-01-26,Pinchote,68549,Movimiento en masa,16,3,1
+2023-02-03,Curití,68229,Movimiento en masa,17,0,0
+2023-02-03,Girón,68307,Incendio forestal,3,1,0
+2023-02-06,Simacota,68745,Incendio forestal,0,0,0
+2023-02-08,Puerto Parra,68573,Inundación,35,9,0
+2023-03-03,Jordán,68370,Incendio forestal,4,0,0
+2023-03-05,Bucaramanga,68001,Incendio forestal,2,0,0
+2023-03-05,San Joaquín,68682,Incendio forestal,1,1,0
+2023-03-07,San Benito,68673,Movimiento en masa,33,5,0
+2023-03-08,San Benito,68673,Inundación,36,7,0
+2023-03-18,San Gil,68679,Incendio forestal,3,1,0
+2023-03-18,Villanueva,68872,Incendio forestal,4,1,0
+2023-03-23,Coromoro,68217,Incendio forestal,1,0,0
+2023-03-23,Puerto Parra,68573,Incendio forestal,1,0,0
+2023-03-26,Guapotá,68322,Movimiento en masa,40,6,1
+2023-03-26,Santa Helena del Opón,68720,Creciente súbita,2,0,0
+2023-03-27,Carcasí,68152,Movimiento en masa,13,2,0
+2023-04-04,Contratación,68211,Movimiento en masa,21,0,0
+2023-04-08,La Belleza,68377,Movimiento en masa,13,4,0
+2023-04-10,Galán,68296,Movimiento en masa,11,1,0
+2023-04-12,Cerrito,68162,Movimiento en masa,15,2,0
+2023-04-14,Puente Nacional,68572,Movimiento en masa,36,4,1
+2023-04-15,Encino,68264,Movimiento en masa,13,0,1
+2023-04-16,Puerto Wilches,68575,Inundación,94,26,0
+2023-04-22,El Playón,68255,Movimiento en masa,1,2,1
+2023-05-04,Málaga,68432,Movimiento en masa,3,1,1
+2023-05-05,Onzaga,68502,Movimiento en masa,14,5,1
+2023-05-06,Suratá,68780,Movimiento en masa,4,0,0
+2023-05-12,Hato,68344,Inundación,90,19,0
+2023-05-18,Jordán,68370,Movimiento en masa,27,3,1
+2023-05-20,Florián,68271,Movimiento en masa,28,0,1
+2023-05-23,Concepción,68207,Movimiento en masa,15,2,1
+2023-06-07,San Joaquín,68682,Movimiento en masa,1,3,0
+2023-06-16,Valle de San José,68855,Movimiento en masa,13,2,1
+2023-06-23,Gámbita,68298,Movimiento en masa,10,0,1
+2023-06-26,Cerrito,68162,Movimiento en masa,13,5,0
+2023-07-05,California,68132,Movimiento en masa,10,4,0
+2023-07-05,Sucre,68773,Movimiento en masa,56,1,1
+2023-07-08,Puerto Wilches,68575,Inundación,52,11,0
+2023-07-16,Albania,68020,Vendaval,25,7,1
+2023-07-20,Zapatoca,68895,Movimiento en masa,3,0,0
+2023-07-21,Barrancabermeja,68081,Movimiento en masa,63,8,1
+2023-07-21,Enciso,68266,Incendio forestal,3,0,0
+2023-07-27,Chima,68176,Incendio forestal,0,0,0
+2023-08-05,Puerto Wilches,68575,Creciente súbita,39,7,0
+2023-08-08,Mogotes,68464,Vendaval,63,16,0
+2023-08-10,Suaita,68770,Vendaval,19,5,0
+2023-08-11,La Belleza,68377,Movimiento en masa,27,9,0
+2023-08-12,Macaravita,68425,Movimiento en masa,25,4,0
+2023-08-12,Galán,68296,Movimiento en masa,45,0,1
+2023-08-13,Los Santos,68418,Incendio forestal,2,0,0
+2023-08-15,Chipatá,68179,Inundación,67,17,0
+2023-09-03,San José de Miranda,68684,Movimiento en masa,4,9,1
+2023-09-03,Ocamonte,68498,Vendaval,23,4,1
+2023-09-04,Simacota,68745,Movimiento en masa,22,4,0
+2023-09-08,Bucaramanga,68001,Movimiento en masa,25,4,1
+2023-09-09,Floridablanca,68276,Vendaval,26,6,0
+2023-09-13,El Peñón,68250,Movimiento en masa,21,0,1
+2023-09-14,Vélez,68861,Incendio forestal,4,0,0
+2023-09-16,El Carmen de Chucurí,68235,Inundación,144,32,0
+2023-09-24,Oiba,68500,Movimiento en masa,6,2,1
+2023-10-01,Onzaga,68502,Creciente súbita,54,11,0
+2023-10-01,Puerto Wilches,68575,Inundación,51,13,0
+2023-10-02,Sucre,68773,Movimiento en masa,30,3,1
+2023-10-05,Charta,68169,Movimiento en masa,51,2,0
+2023-10-07,Guapotá,68322,Movimiento en masa,19,1,0
+2023-10-11,Bolívar,68101,Movimiento en masa,15,0,0
+2023-10-11,Barichara,68079,Movimiento en masa,10,2,0
+2023-10-13,El Peñón,68250,Movimiento en masa,16,2,1
+2023-10-14,Barbosa,68077,Movimiento en masa,15,1,1
+2023-10-17,Mogotes,68464,Movimiento en masa,24,2,1
+2023-10-19,El Carmen de Chucurí,68235,Movimiento en masa,41,1,1
+2023-10-20,Onzaga,68502,Vendaval,1,0,0
+2023-10-22,San Andrés,68669,Movimiento en masa,5,2,1
+2023-10-24,Suratá,68780,Inundación,59,15,0
+2023-10-27,Ocamonte,68498,Movimiento en masa,8,6,0
+2023-10-27,Guadalupe,68320,Creciente súbita,23,5,0
+2023-10-28,Jesús María,68368,Movimiento en masa,17,2,1
+2023-10-28,Sucre,68773,Movimiento en masa,23,0,1
+2023-11-01,Simacota,68745,Movimiento en masa,24,2,0
+2023-11-02,Ocamonte,68498,Movimiento en masa,13,11,1
+2023-11-03,Zapatoca,68895,Movimiento en masa,68,0,1
+2023-11-04,Puerto Parra,68573,Inundación,22,6,0
+2023-11-05,Carcasí,68152,Movimiento en masa,23,4,0
+2023-11-06,Cimitarra,68190,Inundación,56,13,0
+2023-11-06,Encino,68264,Movimiento en masa,26,1,0
+2023-11-09,Aratoca,68051,Movimiento en masa,15,4,1
+2023-11-11,La Paz,68397,Movimiento en masa,8,4,0
+2023-11-11,California,68132,Movimiento en masa,107,2,0
+2023-11-12,Contratación,68211,Movimiento en masa,42,0,0
+2023-11-12,San Joaquín,68682,Movimiento en masa,44,1,0
+2023-11-14,Tona,68820,Movimiento en masa,15,6,1
+2023-11-14,Barrancabermeja,68081,Movimiento en masa,15,0,1
+2023-11-15,Pinchote,68549,Movimiento en masa,15,0,0
+2023-11-16,Concepción,68207,Movimiento en masa,50,0,1
+2023-11-16,La Paz,68397,Vendaval,19,4,1
+2023-11-16,Guavatá,68324,Movimiento en masa,19,0,1
+2023-11-17,Girón,68307,Movimiento en masa,36,4,1
+2023-11-17,Socorro,68755,Movimiento en masa,49,0,1
+2023-11-17,Santa Helena del Opón,68720,Movimiento en masa,76,5,0
+2023-11-18,California,68132,Movimiento en masa,16,9,1
+2023-11-19,Puerto Wilches,68575,Inundación,13,3,1
+2023-11-20,Santa Bárbara,68705,Movimiento en masa,11,2,1
+2023-11-21,El Peñón,68250,Movimiento en masa,30,1,1
+2023-11-22,Galán,68296,Movimiento en masa,15,0,0
+2023-11-25,San Andrés,68669,Movimiento en masa,2,2,1
+2023-11-26,Puerto Parra,68573,Inundación,86,21,1
+2023-11-27,San Andrés,68669,Movimiento en masa,7,0,0
+2023-11-27,Guadalupe,68320,Movimiento en masa,70,6,1
+2023-11-28,Cepitá,68160,Movimiento en masa,7,4,1
+2023-11-28,Barichara,68079,Movimiento en masa,34,1,0
+2023-12-01,San Miguel,68686,Movimiento en masa,34,3,0
+2023-12-05,Encino,68264,Movimiento en masa,20,7,1
+2023-12-05,Charta,68169,Movimiento en masa,28,1,1
+2023-12-10,San Miguel,68686,Movimiento en masa,15,0,0
+2023-12-15,California,68132,Movimiento en masa,3,6,1
+2023-12-15,El Carmen de Chucurí,68235,Inundación,68,19,0
+2023-12-16,Cerrito,68162,Movimiento en masa,17,0,0
+2023-12-17,Barrancabermeja,68081,Movimiento en masa,31,7,1
+2023-12-18,Charta,68169,Movimiento en masa,21,0,1
+2023-12-25,Tona,68820,Movimiento en masa,19,14,1
+2023-12-28,Ocamonte,68498,Movimiento en masa,18,0,1
+2024-01-09,La Belleza,68377,Vendaval,34,7,0
+2024-01-12,Aratoca,68051,Incendio forestal,0,0,0
+2024-01-21,Barrancabermeja,68081,Inundación,160,50,0
+2024-01-23,Barrancabermeja,68081,Inundación,31,8,0
+2024-01-27,San Miguel,68686,Movimiento en masa,9,3,1
+2024-02-05,Cepitá,68160,Incendio forestal,2,0,0
+2024-02-05,Encino,68264,Vendaval,11,3,1
+2024-02-13,Confines,68209,Vendaval,22,4,0
+2024-02-13,Guapotá,68322,Incendio forestal,1,0,0
+2024-02-15,Barichara,68079,Vendaval,34,9,1
+2024-02-22,Suratá,68780,Movimiento en masa,9,6,1
+2024-02-27,Cepitá,68160,Creciente súbita,58,15,0
+2024-03-02,San Benito,68673,Movimiento en masa,5,9,1
+2024-03-07,Enciso,68266,Incendio forestal,4,1,0
+2024-03-08,Santa Helena del Opón,68720,Incendio forestal,0,0,0
+2024-03-15,El Playón,68255,Vendaval,25,5,0
+2024-03-15,Los Santos,68418,Incendio forestal,1,0,0
+2024-03-20,El Playón,68255,Movimiento en masa,10,1,1
+2024-03-23,Suaita,68770,Vendaval,23,7,0
+2024-03-25,Aratoca,68051,Movimiento en masa,35,6,1
+2024-03-26,Páramo,68533,Creciente súbita,4,1,0
+2024-03-28,Cabrera,68121,Vendaval,58,12,0
+2024-04-08,Tona,68820,Movimiento en masa,21,6,1
+2024-04-15,Carcasí,68152,Movimiento en masa,19,0,1
+2024-04-24,Chipatá,68179,Movimiento en masa,4,3,0
+2024-04-27,Aratoca,68051,Movimiento en masa,24,4,1
+2024-05-02,Floridablanca,68276,Movimiento en masa,14,6,1
+2024-05-04,Contratación,68211,Movimiento en masa,11,0,1
+2024-05-16,Puerto Parra,68573,Movimiento en masa,9,0,1
+2024-05-17,Girón,68307,Movimiento en masa,34,0,0
+2024-05-19,Charalá,68167,Inundación,51,16,0
+2024-05-20,Zapatoca,68895,Movimiento en masa,7,22,1
+2024-05-22,Charta,68169,Movimiento en masa,8,1,0
+2024-05-22,Santa Bárbara,68705,Movimiento en masa,73,2,0
+2024-06-01,Sabana de Torres,68655,Vendaval,20,4,0
+2024-06-03,Guapotá,68322,Vendaval,22,7,0
+2024-06-08,La Belleza,68377,Movimiento en masa,8,0,1
+2024-06-08,Jordán,68370,Movimiento en masa,44,5,1
+2024-06-23,Aratoca,68051,Movimiento en masa,32,6,1
+2024-07-02,Aguada,68013,Incendio forestal,1,0,0
+2024-07-05,Páramo,68533,Incendio forestal,4,0,0
+2024-07-17,San Andrés,68669,Movimiento en masa,22,2,0
+2024-07-18,Puente Nacional,68572,Incendio forestal,5,0,0
+2024-07-18,Barbosa,68077,Movimiento en masa,10,0,1
+2024-07-22,Encino,68264,Incendio forestal,1,1,0
+2024-08-10,Pinchote,68549,Vendaval,16,3,1
+2024-08-11,Bucaramanga,68001,Movimiento en masa,34,2,0
+2024-08-13,Charta,68169,Vendaval,6,1,0
+2024-08-13,Puente Nacional,68572,Incendio forestal,1,0,0
+2024-08-20,Cepitá,68160,Creciente súbita,13,2,0
+2024-08-24,Oiba,68500,Movimiento en masa,8,1,0
+2024-08-26,Barichara,68079,Vendaval,13,2,0
+2024-08-27,Galán,68296,Incendio forestal,3,0,0
+2024-09-02,Barbosa,68077,Movimiento en masa,19,3,1
+2024-09-04,Villanueva,68872,Incendio forestal,1,0,0
+2024-09-12,Girón,68307,Movimiento en masa,18,0,0
+2024-09-13,Vetas,68867,Movimiento en masa,9,3,0
+2024-09-16,Guadalupe,68320,Movimiento en masa,56,0,0
+2024-09-24,Bucaramanga,68001,Movimiento en masa,56,13,1
+2024-10-01,Santa Bárbara,68705,Movimiento en masa,22,4,0
+2024-10-03,Güepsa,68327,Movimiento en masa,8,2,1
+2024-10-04,Gámbita,68298,Movimiento en masa,20,0,1
+2024-10-05,Guaca,68318,Creciente súbita,19,3,0
+2024-10-05,El Guacamayo,68245,Creciente súbita,5,1,0
+2024-10-06,Barbosa,68077,Movimiento en masa,14,0,1
+2024-10-06,California,68132,Movimiento en masa,28,1,1
+2024-10-08,Charalá,68167,Creciente súbita,12,3,0
+2024-10-08,Tona,68820,Movimiento en masa,110,6,1
+2024-10-08,Guadalupe,68320,Movimiento en masa,17,1,0
+2024-10-12,Aratoca,68051,Movimiento en masa,25,0,0
+2024-10-12,Zapatoca,68895,Movimiento en masa,49,9,1
+2024-10-13,Rionegro,68615,Movimiento en masa,18,0,1
+2024-10-14,La Paz,68397,Vendaval,21,4,0
+2024-10-14,Barrancabermeja,68081,Inundación,196,61,1
+2024-10-16,Puerto Wilches,68575,Inundación,192,54,0
+2024-10-17,Ocamonte,68498,Movimiento en masa,50,3,0
+2024-10-20,Cimitarra,68190,Inundación,24,7,0
+2024-10-20,Sabana de Torres,68655,Inundación,38,9,0
+2024-10-23,Sabana de Torres,68655,Movimiento en masa,7,2,0
+2024-10-25,Sucre,68773,Movimiento en masa,16,8,1
+2024-10-25,Cerrito,68162,Creciente súbita,67,19,0
+2024-10-26,Suratá,68780,Movimiento en masa,10,0,0
+2024-10-27,Onzaga,68502,Movimiento en masa,22,0,0
+2024-10-27,San Miguel,68686,Movimiento en masa,47,0,0
+2024-10-28,Barbosa,68077,Movimiento en masa,27,6,1
+2024-11-03,Encino,68264,Movimiento en masa,37,4,0
+2024-11-07,Pinchote,68549,Movimiento en masa,10,9,1
+2024-11-11,Cimitarra,68190,Movimiento en masa,14,7,1
+2024-11-11,Suratá,68780,Movimiento en masa,19,0,1
+2024-11-11,Carcasí,68152,Movimiento en masa,23,1,1
+2024-11-12,Sucre,68773,Movimiento en masa,7,6,1
+2024-11-15,Hato,68344,Creciente súbita,44,11,1
+2024-11-16,Bucaramanga,68001,Movimiento en masa,26,2,0
+2024-11-19,Chima,68176,Movimiento en masa,15,3,1
+2024-11-23,Floridablanca,68276,Creciente súbita,70,15,0
+2024-11-27,El Peñón,68250,Movimiento en masa,12,1,0
+2024-12-18,Chima,68176,Movimiento en masa,0,4,0
+2024-12-20,La Paz,68397,Movimiento en masa,9,0,0
+2024-12-20,Puente Nacional,68572,Incendio forestal,2,1,0
+2024-12-26,Onzaga,68502,Movimiento en masa,79,0,0
+2025-01-03,Rionegro,68615,Vendaval,8,2,0
+2025-01-13,Jesús María,68368,Movimiento en masa,28,1,0
+2025-01-15,Zapatoca,68895,Creciente súbita,34,6,1
+2025-01-21,Aguada,68013,Inundación,22,6,1
+2025-02-04,Lebrija,68406,Movimiento en masa,77,0,0
+2025-02-14,La Paz,68397,Incendio forestal,0,2,0
+2025-02-15,Enciso,68266,Vendaval,24,6,0
+2025-02-22,Puente Nacional,68572,Vendaval,41,12,0
+2025-03-08,Charalá,68167,Movimiento en masa,27,1,0
+2025-03-09,Chipatá,68179,Movimiento en masa,20,2,0
+2025-03-10,Gámbita,68298,Movimiento en masa,1,3,0
+2025-03-10,Onzaga,68502,Movimiento en masa,38,4,1
+2025-03-17,El Peñón,68250,Vendaval,26,6,1
+2025-03-18,Ocamonte,68498,Inundación,93,19,0
+2025-03-20,San Andrés,68669,Movimiento en masa,12,3,0
+2025-03-25,Tona,68820,Movimiento en masa,7,3,0
+2025-04-01,Puerto Wilches,68575,Inundación,119,27,0
+2025-04-01,Valle de San José,68855,Movimiento en masa,8,1,1
+2025-04-01,Girón,68307,Movimiento en masa,34,5,1
+2025-04-04,Palmas del Socorro,68524,Inundación,152,38,0
+2025-04-05,Chipatá,68179,Movimiento en masa,13,3,0
+2025-04-05,Gámbita,68298,Movimiento en masa,13,6,0
+2025-04-06,Landázuri,68385,Movimiento en masa,35,0,1
+2025-04-06,Barbosa,68077,Movimiento en masa,4,2,0
+2025-04-08,Matanza,68444,Movimiento en masa,33,3,1
+2025-04-08,Floridablanca,68276,Movimiento en masa,36,4,0
+2025-04-09,Santa Helena del Opón,68720,Movimiento en masa,86,1,1
+2025-04-10,Charta,68169,Movimiento en masa,16,2,1
+2025-04-11,El Peñón,68250,Movimiento en masa,21,4,1
+2025-04-12,Tona,68820,Vendaval,9,2,1
+2025-04-13,San Andrés,68669,Inundación,83,18,0
+2025-04-16,La Paz,68397,Movimiento en masa,24,3,1
+2025-04-18,Puente Nacional,68572,Movimiento en masa,25,0,0
+2025-04-18,San Andrés,68669,Movimiento en masa,22,2,0
+2025-04-18,La Belleza,68377,Movimiento en masa,17,7,0
+2025-04-19,Lebrija,68406,Movimiento en masa,19,8,1
+2025-04-21,Barrancabermeja,68081,Inundación,20,4,0
+2025-04-21,Ocamonte,68498,Movimiento en masa,23,2,0
+2025-04-22,Confines,68209,Movimiento en masa,12,1,1
+2025-04-23,Albania,68020,Movimiento en masa,15,4,1
+2025-04-24,Puerto Parra,68573,Inundación,6,1,0
+2025-04-25,Valle de San José,68855,Inundación,13,2,0
+2025-04-26,Onzaga,68502,Movimiento en masa,19,0,1
+2025-04-26,Onzaga,68502,Vendaval,2,0,0
+2025-04-27,Bucaramanga,68001,Movimiento en masa,27,0,1
+2025-04-27,Santa Bárbara,68705,Movimiento en masa,13,4,1
+2025-04-28,San Miguel,68686,Movimiento en masa,18,2,0
+2025-04-28,Cimitarra,68190,Inundación,127,26,0
+2025-05-03,Curití,68229,Movimiento en masa,21,3,1
+2025-05-04,Guaca,68318,Movimiento en masa,5,5,1
+2025-05-06,El Peñón,68250,Movimiento en masa,5,6,1
+2025-05-07,Barichara,68079,Creciente súbita,13,3,1
+2025-05-08,Barrancabermeja,68081,Inundación,89,23,0
+2025-05-09,Santa Helena del Opón,68720,Movimiento en masa,21,3,1
+2025-05-22,Aratoca,68051,Movimiento en masa,3,0,1
+2025-05-24,Zapatoca,68895,Movimiento en masa,23,0,0
+2025-05-28,Bucaramanga,68001,Movimiento en masa,72,1,0
+2025-06-14,Ocamonte,68498,Movimiento en masa,28,0,1
+2025-06-21,San José de Miranda,68684,Vendaval,45,11,1
+2025-07-03,Barichara,68079,Vendaval,68,13,0
+2025-07-04,Bolívar,68101,Incendio forestal,1,0,0
+2025-07-05,Puerto Wilches,68575,Inundación,186,44,0
+2025-07-09,Curití,68229,Creciente súbita,36,7,1
+2025-07-10,Onzaga,68502,Movimiento en masa,20,0,0
+2025-07-12,El Guacamayo,68245,Movimiento en masa,21,0,1
+2025-07-15,Palmas del Socorro,68524,Movimiento en masa,27,0,0
+2025-07-16,Cabrera,68121,Movimiento en masa,36,2,0
+2025-07-22,Barrancabermeja,68081,Inundación,88,24,0
+2025-07-28,Encino,68264,Movimiento en masa,7,2,0
+2025-08-04,Chipatá,68179,Movimiento en masa,18,1,1
+2025-08-05,Cerrito,68162,Movimiento en masa,25,0,0
+2025-08-08,Charta,68169,Movimiento en masa,17,1,1
+2025-08-12,Jordán,68370,Vendaval,31,8,0
+2025-08-16,Aratoca,68051,Movimiento en masa,26,4,0
+2025-08-17,Mogotes,68464,Movimiento en masa,4,11,0
+2025-08-23,Málaga,68432,Movimiento en masa,10,0,1
+2025-08-23,El Peñón,68250,Inundación,99,24,0
+2025-08-24,Palmas del Socorro,68524,Movimiento en masa,13,5,0
+2025-08-25,El Guacamayo,68245,Movimiento en masa,25,0,1
+2025-08-27,Girón,68307,Movimiento en masa,44,1,1
+2025-09-01,San Andrés,68669,Movimiento en masa,4,3,0
+2025-09-01,Cerrito,68162,Vendaval,30,8,0
+2025-09-01,Barbosa,68077,Movimiento en masa,11,3,0
+2025-09-07,Cerrito,68162,Movimiento en masa,13,1,1
+2025-09-07,Santa Helena del Opón,68720,Movimiento en masa,14,11,1
+2025-09-08,Bucaramanga,68001,Creciente súbita,34,8,0
+2025-09-09,Molagavita,68468,Incendio forestal,1,1,0
+2025-10-02,Encino,68264,Movimiento en masa,15,1,1
+2025-10-04,San Benito,68673,Movimiento en masa,16,0,0
+2025-10-07,San Miguel,68686,Movimiento en masa,42,0,1
+2025-10-09,Albania,68020,Movimiento en masa,5,16,0
+2025-10-15,Suratá,68780,Movimiento en masa,13,2,0
+2025-10-15,El Playón,68255,Creciente súbita,61,13,0
+2025-10-16,Socorro,68755,Movimiento en masa,20,3,1
+2025-10-19,Girón,68307,Movimiento en masa,17,0,1
+2025-10-23,San Joaquín,68682,Movimiento en masa,43,6,1
+2025-10-24,Coromoro,68217,Movimiento en masa,36,8,1
+2025-10-24,Matanza,68444,Movimiento en masa,15,0,1
+2025-10-24,Barichara,68079,Movimiento en masa,38,0,0
+2025-10-28,Los Santos,68418,Movimiento en masa,9,5,1
+2025-11-01,Floridablanca,68276,Movimiento en masa,25,0,1
+2025-11-01,Vélez,68861,Movimiento en masa,1,1,0
+2025-11-03,Socorro,68755,Movimiento en masa,14,0,0
+2025-11-03,San Gil,68679,Movimiento en masa,31,6,0
+2025-11-03,Encino,68264,Movimiento en masa,12,1,0
+2025-11-05,Oiba,68500,Movimiento en masa,24,3,0
+2025-11-06,Florián,68271,Movimiento en masa,31,7,0
+2025-11-06,Chima,68176,Movimiento en masa,14,0,0
+2025-11-06,Simacota,68745,Movimiento en masa,18,0,0
+2025-11-06,Capitanejo,68147,Inundación,175,50,0
+2025-11-08,Floridablanca,68276,Movimiento en masa,20,1,1
+2025-11-08,Piedecuesta,68547,Movimiento en masa,41,2,0
+2025-11-09,Albania,68020,Creciente súbita,19,4,0
+2025-11-09,San Miguel,68686,Movimiento en masa,7,14,1
+2025-11-09,Barbosa,68077,Movimiento en masa,14,3,1
+2025-11-10,Charta,68169,Vendaval,38,12,0
+2025-11-12,Charalá,68167,Movimiento en masa,79,2,0
+2025-11-13,Carcasí,68152,Movimiento en masa,57,0,0
+2025-11-13,Cimitarra,68190,Movimiento en masa,18,0,1
+2025-11-15,Socorro,68755,Movimiento en masa,11,0,1
+2025-11-17,Girón,68307,Movimiento en masa,15,1,0
+2025-11-17,Bolívar,68101,Movimiento en masa,33,1,1
+2025-11-18,Gámbita,68298,Movimiento en masa,40,0,0
+2025-11-18,Chipatá,68179,Movimiento en masa,23,0,0
+2025-11-18,Piedecuesta,68547,Inundación,96,28,0
+2025-11-22,Barbosa,68077,Movimiento en masa,35,2,1
+2025-11-23,Concepción,68207,Movimiento en masa,35,0,1
+2025-11-24,La Paz,68397,Movimiento en masa,5,2,0
+2025-11-25,Suratá,68780,Movimiento en masa,16,2,1
+2025-11-25,Jordán,68370,Movimiento en masa,5,0,1
+2025-11-25,Bucaramanga,68001,Vendaval,40,9,0
+2025-11-27,Cimitarra,68190,Inundación,18,5,0
+2025-11-27,Santa Bárbara,68705,Movimiento en masa,7,1,1
+2025-12-05,San Andrés,68669,Movimiento en masa,110,5,0
+2025-12-09,Floridablanca,68276,Inundación,179,47,0
+2025-12-13,La Paz,68397,Movimiento en masa,8,0,1
+2025-12-15,El Guacamayo,68245,Movimiento en masa,60,2,0
+2025-12-15,Gámbita,68298,Movimiento en masa,46,3,1
+2025-12-19,Pinchote,68549,Movimiento en masa,41,1,0
+2025-12-22,Puerto Wilches,68575,Inundación,160,35,0
+2025-12-22,Aratoca,68051,Movimiento en masa,2,1,1
